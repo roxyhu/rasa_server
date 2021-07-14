@@ -1,0 +1,362 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9996038675308228
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.967005729675293
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "student",
+      "confidence": 0.999468982219696
+    }
+  },
+  {
+    "text": "bye bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.997640073299408
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9766021370887756
+    }
+  },
+  {
+    "text": "Let\u2019s go",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9980907440185547
+    }
+  },
+  {
+    "text": "I want to go to the park",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "I am going to the park",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.9999957084655762
+    }
+  },
+  {
+    "text": "Go to the park",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.9999955892562866
+    }
+  },
+  {
+    "text": "I want to buy some drink.",
+    "intent": "supermarket",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9999756813049316
+    }
+  },
+  {
+    "text": "I want to buy some kitchen utensils",
+    "intent": "supermarket",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9214069843292236
+    }
+  },
+  {
+    "text": "I want to buy some cakes",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.9994118809700012
+    }
+  },
+  {
+    "text": "I want to buy some soda",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.9999650120735168
+    }
+  },
+  {
+    "text": "I would like some cakes",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.9968629479408264
+    }
+  },
+  {
+    "text": "I would like some soda",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.9999130964279175
+    }
+  },
+  {
+    "text": "I want to find a teacher",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9366843700408936
+    }
+  },
+  {
+    "text": "I want to find classmates",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.41925203800201416
+    }
+  },
+  {
+    "text": "pt9909  sharmagaurav24  detresfa As i said above you need to stop going to RSS camps and go join a real school Not a single thing you said is correct but still one can tell you re an extremist with no knowledge and probably your only goal is to kill muder and rape you own kind",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.41319772601127625
+    }
+  },
+  {
+    "text": "NCT 127 BACK TO SCHOOL KIT LOOSE ITEMSprice exc local postage wm - rm6 jnt em - rm10 RM70 for all Outbox Package - RM15 Mini Brochure - RM15 100 Days Challenge Poster - RM10 5 for tube Note - RM20 NCT127 Clear Bookmark Diy Sticker Set 2 - RM8",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.6033776998519897
+    }
+  },
+  {
+    "text": "MzMarxRE  HWimbushEnglish Im not sure what you mean  The document itself is blank like a normal school exercise book The students can copy over diagrams or tables from the slides if they need to or create it from scratch on their document",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.9955887198448181
+    }
+  },
+  {
+    "text": "I like to count",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.3980052173137665
+    }
+  },
+  {
+    "text": "plus",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.998231053352356
+    }
+  },
+  {
+    "text": "PC The only thing you can win by repeating Counterpoint: and then offering a non-specific contradiction is an argument with someone who hauls around a 500 page self-published screed on 5G printed on a prison library\\ s dot matrix printer",
+    "intent": "library",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.999997615814209
+    }
+  },
+  {
+    "text": "Teenagers of coffeeshop 380 tries to knock Block 556 supermarket s garden plant at Yishun Library",
+    "intent": "library",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.8617450594902039
+    }
+  },
+  {
+    "text": "TrinarySuns I don t think I would ve been here as long as I have been if I hadn t found out my library had almost every IDW TF Collection a couple Regenerations Wreckers MTMTE and RiD volumes when I was in Highschool I was really sunk in once I could read the comics",
+    "intent": "library",
+    "intent_prediction": {
+      "name": "school",
+      "confidence": 0.8204846382141113
+    }
+  },
+  {
+    "text": "abcsport Spot on Am I right in thinking the only thing they are missing out is access to the hotel swimming pool  They should count their blessings during tough times like these",
+    "intent": "swimming_pool",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.7831629514694214
+    }
+  },
+  {
+    "text": "Ten",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.603042483329773
+    }
+  },
+  {
+    "text": "I wnat one hundred",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.9795734882354736
+    }
+  },
+  {
+    "text": "Yellow",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999176263809204
+    }
+  },
+  {
+    "text": "Orange",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.9923761487007141
+    }
+  },
+  {
+    "text": "Skin",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.4340267777442932
+    }
+  },
+  {
+    "text": "Brown",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7669661641120911
+    }
+  },
+  {
+    "text": "Amber",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "math_class",
+      "confidence": 0.9907841086387634
+    }
+  },
+  {
+    "text": "The yellow one",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8793296217918396
+    }
+  },
+  {
+    "text": "I want to read the yellow book",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.9999740719795227
+    }
+  },
+  {
+    "text": "Crown",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9099819660186768
+    }
+  },
+  {
+    "text": "Have queen",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9395497441291809
+    }
+  },
+  {
+    "text": "Stationery",
+    "intent": "school_need",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.9993951916694641
+    }
+  },
+  {
+    "text": "I need some stationery",
+    "intent": "school_need",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.7615916132926941
+    }
+  },
+  {
+    "text": "Maybe color pen",
+    "intent": "school_need",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.9999707341194153
+    }
+  },
+  {
+    "text": "fdsnfjerjr",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.4280951917171478
+    }
+  },
+  {
+    "text": "ejwroi",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.993170440196991
+    }
+  },
+  {
+    "text": "stupid",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9679547548294067
+    }
+  },
+  {
+    "text": "fuck",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.9903730154037476
+    }
+  },
+  {
+    "text": "foolish",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "english_class",
+      "confidence": 0.9997742772102356
+    }
+  }
+]

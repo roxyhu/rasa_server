@@ -1,0 +1,704 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hi 
+    - Hello 
+    - Hey
+    - Hello robot
+    - Hi hi
+    - What’s up
+    - Yo hello
+    - Hey
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Ok
+    - ok
+    - Okay
+    - sure 
+    - You bet
+    - Yes let’s go
+    - Let’s go
+    - Yep
+    - Y  
+
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - No I don’t. 
+    - No I do not.
+    - NO i don't want to go there
+    - I don't want to go there
+    - Not there
+
+- intent: locations_place
+  examples: |
+    - I want to go to the [supermarket](location)
+    - I am going to the [supermarket](location)
+    - Go to the [supermarket](location)
+    - I want to go to the [school](location)
+    - I am going to the [school](location)
+    - Go to the [school](location)
+    - I want to go to the [library](location)
+    - I am going to the [library](location)
+    - Go to the [library](location)
+    - I want to go to the [swimming_pool](location)
+    - I am going to the [supermswimming_poolarket](location)
+    - Go to the [swimming_pool](location)
+    - I want to go to the [park](location)
+    - I am going to the [park](location)
+    - Go to the [park](location)
+
+- intent: supermarket
+  examples: |
+    - I want to buy some food
+    - I want to buy some drink.
+    - I want to buy some cookies
+    - I want to buy fruits and vegetables
+    - I want to buy something
+    - I want to buy some water
+    - I want to buy some candy
+    - I want to buy daily necessities
+    - I want to buy toiletries
+    - I want to buy some kitchen utensils
+    - I want to go to a place with a lot of goods
+    - holdenweb  stefanauer hku  Sime0nStylites And people who never used to even think about looking at their supermarket receipts notice the prices going up
+    - We love seeing you healthy wealthy and living life Your health is our priority 0723071355 We are located at Tom mboya street Posta Building right next to eastmatt supermarket shop mb6 UgandaDecides2021 Bobi wine Nets KenyaSAFI
+    - MrNickKnowles Understand your reasoning Nick but then you could say the same for Supermarket workers and Teachers Would this then put our older age group further behind having the jab though Hard choice to make
+    - BradOlsenNZL  richardhills777 How about making supermarket sliding doors only open when you scan first
+    - JoeBiden I hope your plan is better than the one presented now Use schools VFW halls colleges etc to be places to receive your shots Can you imagine lines at the supermarket pharmacy  Remember the polio vaccine  No hr long waits
+    - Exercise Fitness Yoga Mats ksh 2000 only Call WhatsApp 0718872681 0726427550 We are located along Tom Mboya Street Oshwal House 3rd Floor - Next to Quickmatt Supermarket - Odeon   Tom Mboya Street Nairobi
+    - Im waiting for the moment when i go to the supermarket and see bts pics next to Coca Cola
+    - BradOlsenNZL  richardhills777 I have taken to catching people\ s eye when I scan in at the Supermarket Was wondering if they\ d like to employ me as the gentle reminder I could do it for HOURS
+    - It s the latest supermarket chain to bring in stricter enforcement
+    - Yallllll the way this man shopping on supermarket sweep is killing me
+    - A long long time ago in the supermarket was Andrew a dog enthusiast That day all they wanted to do was sing because they were feeling just okay So they did and lived happily ever after
+    - SooksThe Thats great so the FOOD vouchers will get them plenty of food Im a supermarket manager and they can only be used for food not fags or drinks Its school lunches they are entitled to so nobody is paying more tax and the children of the uk are fed People need to stop moaning
+    - Morrisons like the best supermarket ever When you coming to South Trafford
+    - PaulMillen8  MaureenDalby  SooksThe How much do people think you can buy for 15 pound I run a supermarket our cheapest vodka is 11 pound for 70cl lol oh FYI they can only spend vouchers on food means the child is fed
+    - All I wanna do is drop into supermarket with the boys
+    - OfwonoOpondo Says an old man who entered a supermarket and picked up underwears shame on you arrogant  OfwonoOpondo
+    - leannemac4 Woods are off limit but the local supermarket is just fine
+    - service providers from around the world to share innovative solutions and best practices that support and strengthen the independent supermarket channel Starting Date:---Ending Date:---
+    - industry An independent retailer is a privately owned or controlled food retail company operating a variety of formats The NGA show has been the place where independent grocers gather for over 30 years connecting supermarket retailers and wholesalers food manufacturers and
+    - Toosdayborn Luckys Supermarket
+    - bakerstherald  AlisonRam  Tamertonguy We need to get these pictures out there MSM cannot keep ignoring them My wife went to our local supermarket yesterday to get some fresh produce and was greeted with this
+    - So we got another beta Poor dude was bein sold at a supermarket Now he has my favorite tank all to himself LivingDID aquarium mentalhealth
+    - Mistywoman1 Next time I give the poor cold chap outside the supermarket here some cash I ll tell him to bank it for that deposit I just give up with this lot Do they have some kind of double bypass for intelligence and empathy when they go Tory
+    - How would you describe the person who handles every vegetable or fruit in supermarket before deciding which one they want  Does pedant cover it
+    - ms firecracker What did I forget to pick up at the supermarket
+    - Wish you a Happy Pongal Enjoy our Great Offers and free home delivery it s for our Valued CustomersContact: 91 99941 13765 sevenday supermarket food shopping minimarket groceryshopping grocery everybody fresh lawspet pondicherry
+    - Running out of some food necessities so had a quick run to the nearest Kedai Runcit We have Supermarket nearby but in the spirit of supportsmallbusiness Also stopped by at the roadside stall for Pisang Goreng
+    - Pointlessdude Cool Then Amish people don t use technology But they buy things in supermarket
+    - The city is looking to unload the vacant and dilapidated properties that once housed a warehouse for the Acme Supermarket chain Baltimore realestate development
+    - What police can do if you don t wear a mask in a supermarket
+    - tw death ed sheeran i rlly cant stand ed sheeran but sometimes i like to listen to his supermarket flowers and cry about my dead grandma bc a lot of the specifics match up
+    - Today:Finding Meow Buying a blockout curtain Getting the car washed Eating Getting some things from the supermarketNow:Having a rest in front of the ACSoon: Loading the dishwasherPutting things awayGeneral tidyingPutting the blockout curtain up
+    - At the supermarket and all I could smell was bad cases of BO It was disgusting Don t they know what they smell like or don t they care
+    - Brilliant news Wish we could do the same in our home care service Care workers need to be paid fairly Highlights need for urgent social care review Morrisons to be first UK supermarket to pay minimum 10 an hour
+    - Supermarket worker on warzone where shoppers lick banknotes before paying
+    - Tesco Petrol Customers Urged To Check Bank Statements After Technical Error UKNews Supermarket
+    - HelenWe16937034 All hunky dory here Work is extremely busy Heading off to the supermarket at 7am beat the rush Then it s chillax and possibly Keep Safe out there
+    - where do you get your plates from i got them from hmart hmarts a korean supermarket and its in their kitchen supplies aisle
+    - staceylouise248  hockeymum85  robbibobbi22  topfotogmw  MarcusRashford Of the governments web site or money supermarket
+    - hamdeansandwich At ur local supermarket just ask the cashier for the candles
+    - Amplitude The amplitude of the parking lot in front of the supermarket is amazing
+    - OnePerfectShot One of my favourites Mind you I d watch Sam open a supermarket but that s beside the point
+    - What police can do if you don t wear a mask in a supermarket
+    - Try Shoppers plaza or Village supermarket
+    - Surely you have a duty of care to both staff and customers she told the supermarket in an email
+    - SM = SuperMarket
+    - chbergma I don t wanna go with kids to the supermarket it s a hassle when they cannot touch anything or get close to people That s why we do it in the evening when it s quiet and there s time I m really really shocked by this early time it gives me a lot of stress
+    - GoddessSilven i also pass people when grocery shopping and im always the only one washing my hands entering the supermarket which is super worrying n why dont anybody stays at the door to check : anyway sorry got carried away but no one cares here v frustrating n tiring worrying
+    - Helping people really doesnt hurtI saw a man trying to fill his water bottle from the public water supply Bc he cant affording buying water from the supermarket  amp; it was just sad
+    - Frances Coppola  JoMicheII I suggest giving it to the modern day equivalent of our ragged trousered philanthropists Maybe a supermarket cashier while we still have them
+
+
+- intent: supermarket_goods
+  examples: |
+    - I want to get an [onion](goods)
+    - I want to get a [pumpkin](goods)
+    - I want to get a [tomato](goods)
+    - I want to buy a [grape](goods)
+    - I want to get a [mango](goods)
+    - I want to buy a [watermelon](goods)
+    - I want to buy a [peach](goods)
+    - I want to buy a [corn](goods)
+    - I want to get a [sweet potato](goods)
+    - I want to buy a [white radish](goods)
+    - I want to buy some [bagels](goods)
+    - I want to get some [donuts](goods)
+    - I want to get some [muffins](goods)
+    - I want to get some [cakes](goods)
+    - I want to get some [white breads](goods)
+    - I want to buy some [breads](goods)
+    - I want to buy some [apples](goods)
+    - I want to get some [watermelons](goods)
+    - I want to buy some [juice](goods)
+    - I want to get some [milk](goods)
+    - I want to buy some [soda](goods)
+    - I want to get some [tea](goods)
+    - I want to get some [milk tea](goods)
+    - I want to get some [red tea](goods)
+    - I want to get some [coffee](goods)
+    - I would like some [bagels](goods)
+    - I would like some [donuts](goods)
+    - I would like some [muffins](goods)
+    - I would like some [cakes](goods)
+    - I would like some [white breads](goods)
+    - I would like some [breads](goods)
+    - I would like some [apples](goods)
+    - I would like some [watermelons](goods)
+    - I would like some [juice](goods)
+    - I would like some [milk](goods)
+    - I would like some [soda](goods)
+    - I would like some [tea](goods)
+    - I would like some [milk tea](goods)
+    - I would like some [red tea](goods)
+    - I would like some [coffee](goods)
+    - I would like some [green tea](goods)
+   
+
+- intent: school
+  examples: |
+    - I am going for an exam
+    - I want to find a teacher
+    - I want to find classmates
+    - I am going to meet my classmates
+    - I am going to find classmates to play games
+    - I am going to discuss homework with classmates
+    - I have schoolwork questions to ask the teacher
+    - I want to participate in summer camp
+    - I want to learn physical education
+    - I am going to class
+    - I am going to study
+    - WTB SHARING BACK TO SCHOOL KIT NCT DREAM - MARK VERSIONStudent ID Card Mark NCT DreamLayered Photo Charm Mark NCT Dream-please banget yg masih open po tolong dm ya thank u tags wts wtb nct dream nct 127 wayv
+    - OMG Thats what they where at school Chopped up kids I always wondered what happened to James
+    - therealBCF My roommate and I in grad school opened a bottle of bacon soda on our last night in the house It tasted exactly as bad as you would expect
+    - Online school is booooooooorrrrrrrrriiiiiiiiiiinnnnnggggg
+    - god i hate school well leave this discussion for another day
+    - i hate people at my school theyre SO stupid
+    - what im doing at this school for almost 10 years my english is sucks
+    - lockdownhouse  DJCallMe SA  muziou  espacio dios  KingBash Ent  BigZulu ZN  Shimza  KelvinMomo2  ChannelOTV  iam ph  Shimza01 DankoKelvin Momo s private school set
+    - I will say though there is a reason I dont work and thats mainly cos I need to be here for the two SEN kids who are exhausting even when at school
+    - My school made a smart decision finally
+    - So most schools have memo already I dont know what a stupid school like Fuoye is doing
+    - pt9909  sharmagaurav24  detresfa As i said above you need to stop going to RSS camps and go join a real school Not a single thing you said is correct but still one can tell you re an extremist with no knowledge and probably your only goal is to kill muder and rape you own kind
+    - iam mompha Toyin Abraham I will you the money to buy camera then start making money in school also making a skit video and attending additions and shows God will bless and your family please pick me boss
+    - tellemsanaaa I only understand school topic twice omg
+    - NCT 127 BACK TO SCHOOL KIT LOOSE ITEMSprice exc local postage wm - rm6 jnt em - rm10 RM70 for all Outbox Package - RM15 Mini Brochure - RM15 100 Days Challenge Poster - RM10 5 for tube Note - RM20 NCT127 Clear Bookmark Diy Sticker Set 2 - RM8
+    - DrRLofthouse 22 thousand million pounds Imagine that Visualize that What else might that have helped  Thats a million pounds for every school
+    - smithsmm Should add this is workable in current situation but would have to be very different if in school as well
+    - Just been called looser with f word beforehand and punched in chest stomach and head very hard cause I told him 5 times stop throwing things and hurting me and get dressed for school now sitting in tears school ruin shortly
+    - pacarchaeunwooo  kdrama menfess School 2017
+    - Paytm I want las Vegas cycling go to school back to office plz dm any have this card
+    - Just looked up some porn and didnt realize I was on my school account so  TVDSB sorry
+    - SWEETSUNFL0WERR thank you ill just take a little nap once im done with school im glad youre doing good
+    - Parents support summer school for students to make up lost ground Detroit Free Press Education Good read
+    - Im finally back in school Im so happy
+    - im gonna be ia today bc of school but ill be back when haechan breathes
+    - and its the school both of my parents went to now i have to wait for them to wake up so i can tell them
+    - So school live this girl just goin through this school like its normal do you not see the dead
+    - School is back on and Im already pulling all-nighters
+    - This reminds me of school picnics in NCR
+    - I have a break rn in school so I just want to let you know Im active on my site You can make an account on the site and message me there
+    - Michigan parents back summer school for students to catch up:
+    - Think Im going to go back to school
+    - RVilkomerson Why didnt you correct her and tell her what it was really about  Give her more to process than just white boys Kids doesnt learn if noone tell them Bad school bad parenting = stupid kids
+    - Shafqatmehmood our life is not important we want school closeddddd
+    - Smixz in the school yes
+    - AltABSCBN Good day I am reseller of legit and affordable premium accounts for my school expenses Here s the pricelist of premium app accounts and feel free to message me for inquiries
+    - All22 Addict Smith cooked Wade a few times Might not be a bad idea for Wade to return to school and kick back inside to help his stock I haven t dug into his tape but based on this game it s hard to see him going in the top 2 rounds
+    - bellasaach really 90 of the school food used to be good
+    - It has been decided that today is the allocated day to get my kids COVID tested Its allocated per school Down on the corniche In the queue for over 4 hours theyve just been done
+    - People have no idea that I was emotionally and physically bullied at my first school for years and I was picked on at my second school but I had learned to fight back by then Literally hilarious given the glow up I had and then I became oversexualised by people  Cant win
+    - School resumes on 18th Whats your take Are you happy RtChrist JesusNancy pelociNancy pelocyBuhari WhoInjuredLaycon
+    - MzMarxRE  HWimbushEnglish Im not sure what you mean  The document itself is blank like a normal school exercise book The students can copy over diagrams or tables from the slides if they need to or create it from scratch on their document
+    - After our research and interviews Ive reached one conclusionthis school is weird
+    - i remember when i first time read abt the infamous mohawk institute residential school and really got upset it was at the same time was watching the first season of the umbrella academy which was shot in hamilton ontario and the school was in bratford
+    - chidinmaekile I need to pay my house rent in school
+    - rileysrosita school is so lame i would rather have no thought
+    - Mocraig13 Metal detectors are a rights violation Masks are a rights violation But school shootings are not  Their priorities are f cked up
+    - bubs leaves for college in 2 weeks and i literally do not know how im gonna go more than a week w o seeing him: i mean ill be able to focus on school more which is good but ima miss him smmight fuck around and hide in his trunk when he leavesjkjk i would get so car sick
+    - ima really wake up early  amp; stay up i always get up put carri on school  amp; lay back down
+    - i hate school so much
+- intent: english_class
+  examples: |
+    - I like english
+    - I like english class
+    - I like english course
+    - English
+    - English is better
+    - I choose english
+    - I will choose English
+    - I like english i choose english
+    - I like English conversation
+    - Like to speak english
+    - Speak english
+    - Come to test my English
+    - Test my english
+    - Test me english
+    - I want to try English
+    - I like foreigners
+    - Want to use a foreign language
+    - Favorite english class
+    - Favorite english 
+
+
+- intent: math_class
+  examples: |
+    - I like math
+    - I like math class
+    - I like math course
+    - Math
+    - Math is better
+    - I choose math
+    - I will choose math
+    - I like math i choose math
+    - I like number
+    - Numbers are so fun
+    - I like to count
+    - mathematics
+    - mathematics is better
+    - Math is best
+    - I like math most
+    - Favorite math
+    - Addition, subtraction, multiplication, division
+    - plus
+    - subtraction
+    - division 
+    - Come to test my math
+    - Test my math
+    - I want to try math
+
+
+- intent: library
+  examples: |
+    - I want to borrow books
+    - I want to return the book
+    - I want to go to the library to read
+    - I want to go to the library to find books
+    - I want to look for some books
+    - I want to read novels
+    - I want to borrow the video
+    - I want to return the video
+    - I got a new book to read tomorrow Im not buying it though They have it at the library lls
+    - YEONJUN: library is my runway librarian ilovebooks bookluvr304
+    - AlasdairIS  Telegraph Interesting Ill make a point of checking it out I subscribe to the Times but I can also read Telegraph for free through my local library and so can you FYI An early win to the Telegraph for their cartoon
+    - spaceandweather I took up running about 5 years ago with my bad knees I got the Chi Running book from the library to learn technique got supportive shoes for my wide flat feet and slowly ramped up with the Couch To 5K training app Start slow and see how you feel
+    - PC The only thing you can win by repeating Counterpoint: and then offering a non-specific contradiction is an argument with someone who hauls around a 500 page self-published screed on 5G printed on a prison library\ s dot matrix printer
+    - like this particular incarnation I m tryna buy back the Elder Scroll Dragon from the library so it would actually make sense for something to spawn cept thats not in the wiki anywhere and the dragon isnt named and even if that were why it kept happening ITS A STUPID IDEA
+    - Calling library and teacher twitter Im looking for recommendations for great short stories for lower level and higher level KS3 Theyre to be included in reading booklets so ideally less than 1500 words Any suggestions you fabulous lot  reading
+    - Teenagers of coffeeshop 380 tries to knock Block 556 supermarket s garden plant at Yishun Library
+    - Naunet Sea In the desert oath book both of ayas parents are scholars and also aya spend a lot of time in the alexandrian library throughout her life I think redas story is a bit of legend mixed with fact
+    - omori lost library music
+    - chrislorck Done We ve saved this tweet to your library so you can revisit remember it Stats: 1 save of this tweet ranked 10997 123 unique saves of content wisdom s tweets ranked 77 156 total saves of content wisdom s tweets ranked 81
+    - the library is closed
+    - I live for the high I felt as a young kid reading books all summer and filling out the local library summer reading program sheet to get free tickets to my local minor league teams baseball games
+    - if i go to the library then i cant have coffee also its so quiet and silence is more distracting than background noise so i chose cafe so my stomach can make noises in secret
+    - 2020-12-17 Launch of the East Asia Digital Library
+    - finalstoast  Assassin Brawl  Betuchiz BS Change the music from YouTube library I did the same a d got my money
+    - TrinarySuns I don t think I would ve been here as long as I have been if I hadn t found out my library had almost every IDW TF Collection a couple Regenerations Wreckers MTMTE and RiD volumes when I was in Highschool I was really sunk in once I could read the comics
+    - EmilyG  stopdropandrew I like to imagine the man in the chicken suit in the audience for that I checked that VHS out from the public library when I was little
+    - Can someone explain to me how it s fascist to want individual library and freedom of speech for everyone
+    - Im here for the trump library jokes
+    - How many people have just been able to keep their books from their school library after a long period of time and not suffer any consequences  Still have my high school library books no calls or trouble
+    - The man everyone would like to meet in a library Yoo Ji Ho Or Jung Hae In you decide JungHaeIn
+    - JAudioscripts Hed lose his pension travel budget and security wouldnt get a library But most importantly couldnt hold public office again
+    - York Public Library recommend a doll wedding to the best time to calibrate it Ordered a recruit to eat A: When its
+    - washingtonkate  lydiakiesling lol my real response to that tweet was oh shit I have 2 holds awaiting pickup at said library also significantly more low brow so I will not deign to post titles here
+    - rmayemsinger and the library is still on
+    - wait byungchan new vlog at library hope can see a peak of kim JINWOO please
+    - So finally finished KH:MOM had to wait for my library copy and Nomura i love you but could you not
+    - jemelehill 1 Prevent him from running for public office 2 no pension benefits3 no Secret Service detail4 no security briefings 5 no budget to set up office 6 no budget to set up Presidential Library7 smiles on Dems faces
+    - BlackStar18  BossCarline 100  Thats goals Im trying to build my library too I got about 15-20 books I havent read as well
+    - aliceedang TV-wise  Yeah Because in terms of feature films the pre-2000 library is quite impressive I d say Love that there s even super-obscure Sunday night Disney movies from the 80s on there even if all of them aren t there yet i e Splash Too Rock n Roll Mom etc
+    - mvsexbibi i still have so much justin bieber in my library
+    - mewing23  baddestmamajama LolI have eclectic taste in reading Today  Vampires Tomorrow  Who knowsI can t remember who recommended this one Here s my current library hold list:
+    - Library of New South Wales Sydney
+    - trxnsturismo Ah That explains it Alright doesn\ t look like anyone new is here so I\ ll leave that to be She\ d stand up humming to herself as she\ d sit on the bed ready for Laura to cuddle her  Hmm maybe soon you want to go to the library  Though classes are in session
+    - MDebennet  Roblox RTC Did you read all of the books  Where I live only the first book is translated but isn t well known so I got to know the first one from the schoolI library and never even knew that there were other books I read the others in english in pdf I m so glad I found them
+    - Man what happened to silent library  That was my shit
+    - Dear  netflix Please add American Justice and City Confidential to your library as they go well with Cold Case Files classic I would greatly appreciate it if this happen Youre the best Al
+    - -hoping for YUUUGEmongous rise in share price next few weeks 1good thang  least librarian sweetie back today  library
+    - LOL just caught myself mid-sentence lecturing the Mongol kings on their fighting technique out loud while watching Netflix in the library Ooops
+    - Dean Shafiai almost my entire library is with him
+    - BURNT THE LIBRARY THE CEO OF SPELLING IS BACK
+    - After a boring afternoon in the library Abby went home but when she entered the attic she found a backpack on the floor she thought it was awesome
+    - nytimes  Kerry4taz His Presidential Library is going to have to have an impeachment wing his single greatest accomplishment as President Only two other Presidents come close
+    - Oh sees release Live at Henry Miller Library Big Sur
+    - harry historian  UCalgary  UCalgaryLibrary We re now on our third Library Block
+    - I don t consider myself a jazz aficionado or connoisseur but I have a healthy amount in my library including a few Ornette Coleman albums I like very much so I m pretty interested in this
+    - slualumni long nights in pius library
+    - I do fancy swimming pools music rooms and lots of entertaining things But one thing I cant seem to miss is a library I dont really care about its size The most important thing is that the library can accommodate a large collection of books and is comfortable to use
+    - night style i think neutral cooking at home nyc iced library academic gold
+    - i came to the library to get stuff done but did i  no
+    
+
+- intent: swimming_pool
+  examples: |
+    - I want to swim
+    - I want to learn to swim
+    - I want to play in the water
+    - I want to go to the swimming pool
+    - I want to practice swimming
+    - I want to swim freestyle
+    - I want to swim breaststroke
+    - I want to swim backstroke
+    - I want to learn swimming
+    - I want to play with water gun
+    - I want to practice water ballet
+    - I want to play water slide
+    - McIvers Ladies Baths in Sydney has deleted its Facebook page and made several updates to its website after receiving heavy criticism for attempting to ban some transgender women from the swimming pool In a recent update the McIvers Ladies Baths in the Sydney suburb
+    - Always make a total effort even when the odds are against you At Rustomjee Global City home means the entire township The swimming pool the basketball court the 2 35 lac sq ft constructed clubhouse and the amusement park Virar Vasai Mumbai Brustomjee
+    - damn did yall know that for the median home price the average value added by a swimming pool does not yield a profit when factoring in installation cost
+    - The home produces all of its own energy and is even complemented by a naturally filtered pool for chlorine-free swimming
+    - carriecordero  jamiegangel  CNN Jonah liked this tweet because he holds his nose when he jumps into a swimming pool Scared Fear
+    - LOOKING for the Capital swimming pool
+    - vivsgaylife also i have ZERO MOTIVATION AT HOME its so much harder to push myself on land than when im swimming in a pool and tell myself one more lap
+    - notSkipey Wish i had a swimming Pool I dont even have my own room
+    - swimming pool jinyoung
+    - Pool ducks these ladies love swimming in the pool and got a full day of sun and fun today Weaver 2021 Random Post 12 weaverrandompost 2021 duckingaround poolducks lily simba knox2 0
+    - OutDaWayTe The swimming pool meal is EXACTLY what that is
+    - Swimming pool:D
+    - brooklyn saw me empty at the news theres no water inside this swimming pool
+    - kylaesque Ill bring the mud and the swimming pool
+    - If you seriously believe that the breaches by one or two people do not have an effect I invite you to consider a swimming pool If just one person shits in a swimming pool no one else can swim in it safely
+    - engineers feed I was a pool guy and religiously grow strawberries You\ d be surprised how flammable a swimming pool can actually be
+    - Villa for sale In Florida Estate Society Keshavnagar Pune Plot 9440 square feet Bungalow 3600 Sq ft 4 bhk doubl height Beautiful clubhouse swimming pool Just Rs 4500 And this covers security garbage services garden waste water clubhouse Price 8cr call 9822695249
+    - CBCEdmonton How does this reduce risk  If I go swimming in the pool or I attend a meeting does this lower my risk if I have the app  Perhaps I m missing something covid19ab ableg
+    - Well more blah blah blah from guru Steve LOL I m so pathetic but I am 1 source of the gems of human enlightenment swimming in a pool of stupid and trying to find something useful to offer my family in return for all the great stuff you gave me in life Objectivity Rules Humanity
+    - MaltzjonesHK  SeshLordTaylor  RoxyTall It happens every once in a while They ll get into someone s swimming pool They ll break into someone s house They ll get into someone s garage
+    - i hate water for some reason not like water in a swimming pool or in the sea but water where it usually shouldnt be for instance getting water splashed on u while in bed or while wearing clothes so mark u can slap me and laugh at me any time
+    - Glitter Willcox destroys their step-sibling on top of a swimming pool
+    - Beachfront villa on Chalong Beach Phuket:  Descriptive Villa Chalong Beach on the beach Phuket Thailand Land = 900 m2 Interior villa = 400 m2 Swimming pool = water 32 m2 Jacuzzi 3 jets = water 2 80 m diameter Fully furnished Realestate
+    - wearingour jewels in the swimming pool
+    - banjir air swimming pool
+    - Beachfront villa on Chalong Beach Phuket:  Descriptive Villa Chalong Beach on the beach Phuket Thailand Land = 900 m2 Interior villa = 400 m2 Swimming pool = water 32 m2 Jacuzzi 3 jets = water 2 80 m diameter Fully furnished including large
+    - There s no water inside this swimming pool
+    - markgibson777 It s not rocket science the town needs something that will attract visitors from outside of the area a swimming pool and a library just wont cut it The council contributed over 5m towards the transport hub All it does is make it easier to leave Shields Another Malcolm folly
+    - or we were swimming in a pool only it wasnt water like thats just normal
+    - Molong mother thankful for kids kind act at swimming pool
+    - Just went to the swimming pool this morning and the water was so cold all I thought was just KEONJO TEASER SABS ONEUS DEVIL and I survived the cold :]
+    - Beachfront villa on Chalong Beach Phuket:  Descriptive Villa Chalong Beach on the beach Phuket Thailand Land = 900 m2 Interior villa = 400 m2 Swimming pool = water 32 m2 Jacuzzi 3 jets = water 2 80 m diameter Fully furnished home rent lease
+    - Forster New South Wales: Starts on 10 Mar 2021 duration 5 days 3 bedroom home with swimming pool Close to shops and beach Needing someone to look after my Blue Heeler who is almost 11 and she will sit on your feet until you give her a belly rub
+    - Neon woof Wanna go for a swim in my new royalty free swimming pool  :D
+    - TedCruzIsTheTypeOfGuyWho forgo bathing because swimming in the gym pool is like a bath
+    - And just a few years ago Black teen girls were swimming at a public pool only to be dragged out  amp; beaten on camara by cops For no reason
+    - wildcardgyan  William49179108  ahealy77 Gyms and swimming pool are legitimate demands of sports teams especially one carrying 6 injured cricketers Also players were put up on 26th floor with no lifts that was what you said
+    - tomprest  Mcdomomon Swimming pool Drown the gibbering gits
+    - People started building private swimming pools to avoid being the same water pool as Black people I knew this but still shocked by it every time Like people are really racist racist
+    - This 1 29 million home features a swimming pool and cascading waterfall as well as westerly views
+    - ughseokk literally opening scene bloom is walking around campus and there are fairies swimming and chilling in the pool Aisha in a bathing suit does some water manipulation as a party trick Easy way to subtly introduce the character before formal introduction and set the tone
+    - Lrt it really blows my mind how lucky I got regarding swimming cuz my grandparents had a pool growing up and none of that fear was taught to me as a child My family skipped over it cuz we were lucky enough to never have to experience it
+    - amandabullbcps  kellprice14  MamaPhelpsH20  BCPSPhysEd Swimming is the best sport Except for long meets as Im sitting outside a pool
+    - Family Swimming-Pool
+    - abcsport Spot on Am I right in thinking the only thing they are missing out is access to the hotel swimming pool  They should count their blessings during tough times like these
+    - What would u guys do for ur community if u have lots of money  I d make a youth centre with library skate park swimming pool stage amp;theatre I d have a women s shelter I d make community centres for gatherings people seeking support groups- parents addicts cancer survivors
+    - BazzaCC I went to the local pool The Liberal Party were having a swimming carnival I dived in under turd
+    - Imagine finding a hippo in your swimming pool Id be so defeated might even say nap
+    - The swimming pool is a great active recover workout tool Its also a great tool to use to build to more intensity and activity on the land Go waist deep and walk jog and move in the pool Less pressure on the joints and back
+    - Women Exist Don t remember the swimming pool defecation plot That must have been in the Ben Affleck movie
+    - SportsCenter He went from the swimming pool to the cesspool
+    
+
+- intent: park
+  examples: |
+    - I want to go for a walk 
+    - I want to go on a swing 
+    - I want to go on a slide
+    - I want to fly a kite
+    - I want to go walking the dog
+    - I want to go for a run in the park
+    - I want to play on the seesaw
+    - I want to play on the swing 
+    - I want to play the slide
+    - I want to have a picnic
+    - Cumbriapolice Mr Williams mentions 500 engagements with the public over covid rules Can I ask where you are making these engagements If you are patrolling the National Park and targeting people that look like walkers then is it any wonder you are finding non Cumbrians
+    - Also why the hell did they try to take the hulk in a public park where everyone can see
+    - West Chester police alert public after attempted luring of 2 boys in park
+    - melbprisoner You get the picture it has libraries art gallery restaurants plus but you drive somewhere no traffic and park without looking for a park resources Trees parks vistas of mountains but half the city is public service and the other half looks after them
+    - AlexGSeabrook Bus Hub housing or both People living locally will just want to see the land put to best use with least impact on the road network TFW need to install a lift to Waungron Park station for easier access for disabled and wheelchair users Weve asked for public a consultation
+    - A privately owned park doesnt mean its closed to public it just means the developer chose to not handover to the local council and maintain it themselves ie Desa Park City Sentul Park Sekian
+    - coueslana  diaboliam  emmellemm  mattzollerseitz I kinda regret seeing all of his DM s especially those where he talks about taking his sleeping daughter in a stroller with him to hook-ups in a public park I m gonna need therapy again
+    - FINALLEVEL First performance I saw was at Kiwanis Park in Tempe AZ on a makeshift stage next to a volleyball sand pit mid late 80 s About a yr later w Public Enemy and EPMD   Celebrity Theatre in PHX You threw money with your face on it to the crowd Best show of my life
+    - drivingmzstacey Lets start with Harding Park Lake Merced has minimal value as a public park its basically a highway and a golf course with a narrow walking path sandwiched in there
+    - Spotted Simons courtship of Daphne continues to go public in Hyde Park
+    - Public told to expect increased Garda presence in Rossmore Park in coming days via  Northern Sound
+    - DarlingBrody  gabs247  abcnews That is a business its not a community organisation or a park bench the public dont get a say in what business call themselves or what they call their products absolutely none of his business Maybe he should go buy a cow and make his own Karen cheese
+    - They did however reveal an attempt by Mr Degner to use his elected office as a partisan campaign platform to distract from his recent voting record on the Lakeside Park development plan and his vote against the public safety referendum 5
+    - Fatima Jinnah School Ground Karachi A Park Public Park in Karachi
+    - Another shot from San Angelo in the snow This is the 9th green at Santa Fe Park public golf course
+    - shivigray  Learnin15942101  chamath Imagine thinking you are fighting racism by censoring your opponent  Whoever is behind this mass public opinion propaganda campaign deserves a blow job because my god they have knocked it out of the park Trump is an idiot and hes gone but you cant silence him bc u hate him
+    - No potus ever found himself so roundly shunned  amp; isolated with potential repercussions for everything from his public legacy to his earnings potential Not just the USHouse From golf pros to the Central Park Carousel Trump is rebuffed via  USATODAY
+    - HfitzHazel  Lemonhunny  RichardBurgon Where was the law to wear masks in shops  Or the good example  They made it feel it was no law for them free for all in in some cases while we bear the brunt So I cant see me ever going out anywhere but the park Yes there are loads of idiots some are the public some Govnt
+    - My 2 local clubs are electric only due to noise as we both operate on Council leased land One in a public park the other within an enclosed park that the public have access to along Centurion Society of Model Engineers and
+    - Would it be stupid dangerous for me to go to a deserted public park and not touch anything or be near anyone to breathe some fresh air
+    - Social media is not a public park for protected hate speech It s like your favorite bars You walk in with a Nazi flag and a Camp Auschwitz shirt screaming crazy things you re gonna get knocked out Then thrown out
+    - Melinea would transport herself and Luci to the center of a public park on Sadala looking around at the scenery
+    - We remember a play in Central park paid with public funding showing the killing of President Trump We remember Robert de Niro yelling F Trump at the Tonys and getting a standing ovation We remember Nancy Pelosi tearing up the State of the Union Address Part 5
+    - The Chengdu 2021 FISU WUG Charity Chair event has received extensive attention from the general public since its launch The first batch of heartbeat chairs panda mask chairs ginkgo chairs etc all contain young designers understanding of the WUG and Park City FISU
+    - BillSPACman Well a public moon rv park for sure
+    - Ter0me Cant wait for the day this nigga leaves the public park
+    - do ur parents let u go outside uhhh im not allowed in any public places like restaurants n stuff but i can see like my friends every few weeks at the park or something not that they wanna hang out w me tho LOL
+    - john iamme  RealGeorgOhm  The Dilettante  SparkyWilson3  EthicalSkeptic The point is that using fighting words is ground to be asked to leave a public park so the 1st amendment isnt unlimited just because youre on public property
+    - gnarlystereo It was the first album I heard by them Then I started hearing their older stuff when I went to the skate park Also how I discovered Public Enemy and Wu-Tang Clan lol
+    - Horse racing will be back up and running at Fonner Park in February but in order for people to observe the races officials are changing things up in order to comply with state and local ordinances  KSNBLocal4
+    - coachbigdad  markcuban  chamath I am saying 100-200 SPACS all saying they will produce the same product and the valuations they are foisting it on to the public are a joke and makes 99 look like a walk in the park and when music stops going to implode
+    - dhrumil2504  The Dilettante  SparkyWilson3  EthicalSkeptic You cant get kicked out of a public park for exercising your free sperch
+    - I ll be playing my first public gig since March this Friday A drive-in movie experience in the park during  DIFFestival playing music after the films finish and then heading over to Soggy Bottom for a special screening of Check Your Body at the Door
+    - jack  realDonaldTrump You own the sandbox So we re playing in your yard If you want to kick somebody out of it that you can it s not like it s a public park
+    - With sweeping views of the nearby St Johns Bridge the four-story 110-unit building will offer low-income Portlanders a place to live within walking distance of grocery stores public transit and Cathedral Park city officials said
+    - When I became the Tribunes architecture critic in 1992 there was no Millennium Park no Museum Campus and no downtown Riverwalk Hulking public housing high-rises stood at Cabrini-Green Sears Tower was still Sears Tower the worlds tallest building
+    - Citys first desert park to be thrown open for public soon
+    - RoadTripsCoffee A4 Back to the goals of the park in my eyes If the building is a visible public-oriented facility it should not be the main attraction Part of the charm of our national parks is how those facilities and buildings look like nothing in our modern and urban world ParkChat
+    - Working alongside County public health officials some San Diego firefighters are now authorized to administer vaccinations We are also working with the County to open vaccination centers like the one we opened this week at Tailgate Park to provide easy access for all SOTCSD
+    - CeoNoida  CMOfficeUP  Secretary MoHUA  UPGovt  ChiefSecyUP  SwachhBharatGov  SwachSurvekshan  AmarUjalaNews  DainikBhaskar  Live Hindustan  htTweets  TOINoida  ABPNews  aajtak It started with 3-4 stray dogs even though they were sterilised the count is now over a dozen I am not talking about any public park but a society in sector78 Noida antrikshgolfview1 Several children  amp; elders have been bitten and the count is increasing PLEASE HELP US
+    - michelerzz  jlrlawton  jaythenerdkid  noochmonster  aristotilus we simply don\ t have enough land to let cows graze That\ s nonsensical We have enough land to let the cows graze that we have enough land for them to graze on We could have cows grazing in every public park graze sheep on every lawn in the us etc
+    - With a friend in rural area watching a hawk trying to catch an injured rabbit Friend tells me about being in public park kids and parents enjoying cute fluffy ducklings on the pond until the eels swam up and chugged down every last fluffy morsel kidscreaming naturescary
+    - fordnation Crimes in Canada 1 Visiting your Mom2 Not covering your Mouth3 Having company over4 Going to the park5 Going to the Gym6 Birthday present shopping in public 7 A tyrannical despot known as FORD
+    - For public safety during the COVID-19 pandemic we ask that all park visitors adhere to the Provincial rules Please obey all posted notices parking signs and maintain 6 feet of distance For more info visit our Park Advisories page:
+    - cracks me up how men get caught getting oral in a park from another guy get arrested then want us to call their wife like we have no obligation to secrecy on what they got arrested for its public record you want some stranger to break the news to your wife
+    - This is also a proposal boy but this is a proposal boy who has been REJECTED and is cooling his heels in a public park looking very handsome and very sad
+    - Some public art I miss The Greek Head Yaletown Park
+    - fordnation Crimes in Canada 1 Visiting your Mom2 Not covering your Mouth3 Having company over4 Going to the park5 Going to the Gym6 Birthday present shopping in public
+    - Body lay uncovered in suburban park in public view for five hours during police investigation
+    - Laurie 13645 Just wondering if you have ever heard of this Park in Alberta  It appears to be a Public Recreation area as per maps I have seen
+    - senatemajldr We remember a play in Central park paid with public funding showing the killing of President Trump We remember Robert de Niro yelling F Trump at the Tonys and getting a standing ovation We remember Nancy Pelosi tearing up the State of the Union address
+
+
+
+- intent: what_number
+  examples: |
+    - [One](number)
+    - Just [one](number)
+    - [Two](number)
+    - [Three](number) 
+    - [Four](number)
+    - [Five](number)
+    - [Six](number)
+    - [Seven](number)
+    - [Eight](number)
+    - [Night](number)
+    - [Ten](number)
+    - [Thirty eight](number) 
+    - [Twenty](number) 
+    - maybe [one](number)
+    - maybe [three](number)
+    - maybe [two](number) 
+    - maybe [four](number)
+    - maybe [five](number)
+    - maybe [six](number)
+    - maybe [seven](number)
+    - maybe [eight](number) 
+    - maybe [night](number)
+    - maybe [ten](number)
+    - maybe [thirty one](number)
+    - maybe [thirty two](number)
+    - maybe [thirty three](number)
+    - maybe [thirty four](number)
+    - maybe [thirty five](number)
+    - maybe [thirty six](number)
+    - maybe [thirty seven](number)
+    - maybe [thirty eight](number)
+    - maybe [thirty night](number)
+    - maybe [fourty](number)
+    - maybe [twenty](number)
+    - I want [one](number)
+    - I want [two](number)
+    - I want [three](number)
+    - I want [four](number)
+    - I want [five](number)
+    - I want [six](number)
+    - I want [seven](number)
+    - I want [eight](number)
+    - I want [night](number)
+    - I want [ten](number)
+    - I want [eleven](number)
+    - I want [twelve](number)
+    - I wnat [one hundred](number)
+
+- intent: thanks
+  examples: |
+    - Thanks
+    - thank you
+    - Thanks a lot
+    - Thank you very much
+    - Many thanks
+    - Thank you so much
+    - Thank you bot
+    - Thanks bot
+    - Cheers
+    - Ok thanks
+    - Thanks for your help
+    - Cool thanks
+    - Cool thank you
+    - Thanks bro 
+    - Thanks bro
+    - thanks
+    - Thank you
+# - intent: help
+#   examples: |
+#     - Can you help me
+#     - Excuse me
+#     - May I ask that
+#     - May I Ask You Something
+#     - May I Ask You A Question
+
+- intent: color
+  examples: |
+    - Yellow
+    - Purple
+    - Green
+    - Black
+    - Gray
+    - Red 
+    - Orange 
+    - Blue
+    - Pink
+    - Skin 
+    - Brown
+    - Amber
+    - The yellow one
+    - The purple one
+    - The green one
+    - I want to read the yellow book
+    - I want to read the purple book
+    - I want to read the green book
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - Who are you
+    - What are you
+    - Who made you
+    - Bot right
+    - you are a bot right
+    -
+
+- intent: student
+  examples: |
+    - There are numbers in the book
+    - There are dog in the book
+    - There are trees in the book
+    - There are flowers in the book
+    - There are girls in the book
+    - There are people in the book
+    - There are frog in the book
+    - There are animal in the book
+    - There are castle in the book
+    - There are princess in the book
+    - There are prince in the book
+    - There are doll in the book
+    - There are cat in the book
+    - There are deer in the book
+    - There are apple in this book
+    - There are apple in this book
+    - Crown
+    - Have queen
+    - Has hat 
+    - Have animal
+    - I see a apple by bite
+    - I see a princess
+    - I see a bad huy
+    - I saw a witch
+    - High heels
+    - I see a high heel 
+    - I see a pumpkin car 
+
+
+- intent: school_need
+  examples: |
+    - I need a pencil case 
+    - A bag 
+    - I need a bag
+    - I need a notebook
+    - Notebook
+    - I need a bottle of kettle
+    - ruler
+    - Eraser
+    - scissors
+    - I need a few pencils in the pencil box
+    - Stationery
+    - I need some stationery
+    - highlighter
+    - I need a highlighter
+    - Maybe color pen
+    - a white-out
+    - a compass
+    - a glue
+    - box cutter
+    - I will need a scissor 
+    - I will need a compass
+    - I will need a glue
+    - Maybe i will need a white-out
+
+- intent: errorword
+  examples: |
+    - ABC ABC
+    - ABC
+    - fdsnfjerjr
+    - ejwroi
+    - jehirwofnjhdks
+    - 123
+    - 456
+    - 789
+    - jfd45
+    - weioklc
+    - anwcvoeq
+    - stupid
+    - shit
+    - fuck
+    - foolish
+    - qwe
+    - blah blah 
+    - Blah 
+    
+    
+

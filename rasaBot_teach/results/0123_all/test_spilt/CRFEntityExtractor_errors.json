@@ -1,0 +1,16 @@
+[
+  {
+    "text": "I want to go for a run in the park",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.6763889248298437,
+        "value": "park",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

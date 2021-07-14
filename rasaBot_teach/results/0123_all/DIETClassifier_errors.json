@@ -1,0 +1,346 @@
+[
+  {
+    "text": "bye",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8912457227706909,
+        "value": "bye",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bye bye",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.6434340476989746,
+        "value": "bye",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.9208495616912842,
+        "value": "bye",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to go to the park",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "park",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.6763915622459756,
+        "value": "park",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I am going to the park",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "park",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.6763914439318045,
+        "value": "park",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Go to the park",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "park",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.6763846358574475,
+        "value": "park",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy some drink.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9999717473983765,
+        "value": "drink",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy some kitchen utensils",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.923106849193573,
+        "value": "utensils",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "SM = SuperMarket",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 16,
+        "confidence_entity": 0.9966920614242554,
+        "value": "SuperMarket",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy some cakes",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "cakes",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9073754012322283,
+        "value": "cakes",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy some soda",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "soda",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9246006114337957,
+        "value": "soda",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like some cakes",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "cakes",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9073759133909606,
+        "value": "cakes",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like some apples",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "apples",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9183525592319268,
+        "value": "apples",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like some soda",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "soda",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9246009506757389,
+        "value": "soda",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Ten",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Ten",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8325839101980456,
+        "value": "Ten",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I wnat one hundred",
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "value": "one hundred",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 18,
+        "confidence_entity": 0.7350366289806146,
+        "value": "one hundred",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Orange",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.7653219103813171,
+        "value": "Orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Stationery",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.999607503414154,
+        "value": "Stationery",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Maybe color pen",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.999796450138092,
+        "value": "pen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ejwroi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.5373590588569641,
+        "value": "ejwroi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

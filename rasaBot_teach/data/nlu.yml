@@ -1,0 +1,1238 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hey
+    - Hello
+    - Hi
+    - Hello there
+    - Good morning
+    - Good evening
+    - moin
+    - Hey there
+    - hey dude
+    - Goodmorning
+    - Goodevening
+    - Good afternoon
+    - Hi 
+    - Hello 
+    - Hey
+    - Hello robot
+    - Hi hi
+    - What’s up
+    - Yo hello
+    - Hey
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Ok
+    - ok
+    - Okay
+    - sure 
+    - You bet
+    - Yes let’s go
+    - Let’s go
+    - Yep
+    - Y 
+    - Okay here you are.  
+    - Here you are. 
+    - Yes I want to read [yellow](color) book
+    - Yes I want to read [green](color) book
+    - Yes I want to read [purple](color) book
+    - Yes yellow book
+    - Yes green book 
+    - Yes purple book
+    - Yes I have
+    - Yes I am going to play
+    - Yes i am going to 
+    - Yes let’s go to the supermarket
+    - Yes I have an umbrella
+    - Ok I can wait
+    - Okay I can wait
+    - Okay I can
+
+
+- intent: deny
+  examples: |
+    - No
+    - N
+    - Never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - No I don’t
+    - No I do not
+    - NO i don't want to go there
+    - I don't want to go there
+    - Not there
+    - NO no no
+    - No
+    - No I don’t have
+    - No I don’t want
+    - No I don’t have an umbrella
+    - No May I have a table for one please?
+    - NO I have no reservation
+    - No thanks
+    - No thank you
+
+- intent: bread
+  examples: |
+    - Bread
+    - I want to buy some bread
+    - I would like some bread
+    - I would like some break
+    - I would like some Preet
+    - I would like song Preet
+    - I would like some greet
+    - I would like some point
+    - I would like some brighter
+    - I would like some greater
+    - I want to get some bread
+    - Can help me get some breads
+
+- intent: fruits
+  examples: |
+    - Fruits 
+    - I want to buy some fruits
+    - I would like some fruits
+    - I would like some fruit
+    - I would like some fourth
+    - Can help me get some fruits
+    - Can help me get some fruit
+    - I want to buy some fruit
+    - I would like some fruit
+
+- intent: drinks
+  examples: |
+    - Drinks 
+    - I want to buy some drinks
+    - I would like some drinks
+    - Can help me get some drinks
+    - Drink
+    - I want to buy some drink
+    - I would like some drink
+    - Can help me get some drink
+    - I would like Sang Jin class
+    - I would next song drinks
+
+- intent: supermarket_goods
+  examples: |
+    - Bagel
+    - Bagel bagel bagel
+    - Bagel bagel bagel bagel bagel
+    - Dount
+    - Doughnut
+    - Muffin
+    - Apple
+    - Orange
+    - Watermelon
+    - Juice
+    - Milk
+    - Tea
+    - [Bagel](goods)
+    - [Dount](goods)
+    - [Doughnut](goods)
+    - [Muffin](goods)
+    - [Apple](goods)
+    - [Orange](goods)
+    - [Watermelon](goods)
+    - [Juice](goods)
+    - [Milk](goods)
+    - [Tea](goods)
+    - I would like some Pako
+    - I would like some pickle
+    - I would like song Dekho
+    - I would like son Thomas
+    - I would like sung tons
+    - I would like sung back up
+    - I would like sung bagel
+    - I would like song April
+    - I would like song oranges
+    - I would like Sangh a poor
+    - I would like song Apple
+    - I would like that songs choose
+    - I would like the song airport
+    - I would like Sang choose
+    - I would like song [bagel](goods)
+    - I want to buy a [watermelon](goods)
+    - I want to buy some [bagels](goods)
+    - I want to get some [donuts](goods)
+    - I want to get some [muffins](goods)
+    - I want to buy some [apples](goods)
+    - I want to buy some [Apples](goods)
+    - I want to get some [watermelons](goods)
+    - I want to buy some [juice](goods)
+    - I want to get some [milk](goods)
+    - I want to buy some [tea](goods)
+    - I would like some [bagels](goods)
+    - I would like some begger
+    - I would like some backup
+    - I would like some [doughnut](goods)
+    - I would like some [donuts](goods)
+    - I would like some [muffins](goods)
+    - I would like some [donut](goods)
+    - I would like some [muffin](goods)
+    - I would like some [apples](goods)
+    - I would like some [Apples](goods)
+    - I would like some [watermelons](goods)
+    - I would like some [juice](goods)
+    - I would like some [milk](goods)
+    - I would like some [tea](goods)
+    - I would like some [orange](goods)
+    - I want a [watermelon](goods)
+    - I want an [apple](goods)
+    - I want an [orange](goods)
+    - I wnat some [bagels](goods)
+    - I wnat some [donut](goods)
+    - I wnat some [doughnut](goods)
+    - I want some [muffin](goods)
+    - I want [donuts](goods)
+    - I want [bagel](goods)
+    - I want [muffin](goods)
+    - I want [apple](goods)
+    - I want [orange](goods)
+    - I wnat [watermelon](goods)
+    - I wnat [juice](goods)
+    - I want [milk](goods)
+    - I want [tea](goods)
+    - I like [apple](goods)
+    - I like [banana](goods)
+    - I like [orange](goods)
+    - I like [watermelons](goods)
+    - I like [blueberry](goods)
+
+   
+- intent: school_play
+  examples: |
+    - I want to go to the playground
+    - I want to go to the play ground
+    - I want to go to playground
+    - Playground 
+    - Call to the Priya onto
+    - Go to the playground 
+    - The playground
+    - Play cum
+    - Prayer quantum
+    - Prank want
+    - Play contra
+    - Play Kranti
+    - Prayer quantum
+    - prank on
+    - prayer counter
+    - Pura Kolkata
+    - I want to go to the prayer quantum
+    - I　want to go to the pray gone
+    - I want to go to play counter
+
+
+- intent: class
+  examples: |
+    - I want to go to the class
+    - Class 
+    - Go to the class
+    - I want to go to the classroom
+    - Classroom  
+    - Call to lacrosse
+    - Kothur across
+    - I want to go to the across
+    - I want to go to the across
+
+- intent: play
+  examples: |
+    - I want to play basketball
+    - I want to play soccer
+    - Basketball 
+    - Soccer 
+    - Play basketball
+    - Play soccer
+
+- intent: english_class
+  examples: |
+    - I like english
+    - I like english class
+    - I like in Qureshi class
+    - I like encourage class
+    - I like encourage cross
+    - I'd like English class
+    - I'd like Kurdish across
+    - I'd like English across
+    - I like english course
+    - English
+    - English is better
+    - I choose english
+    - I will choose English
+    - I like english i choose english
+    - I like English conversation
+    - Like to speak english
+    - Speak english
+    - Come to test my English
+    - Test my english
+    - Test me english
+    - I want to try English
+    - I like foreigners
+    - Want to use a foreign language
+    - Favorite english class
+    - Favorite english 
+
+- intent: instruction
+  examples: |
+    - Go forward
+    - Turn left 
+    - Turn right
+    - Go backeard 
+
+- intent: math_class
+  examples: |
+    - I like math
+    - I like math class
+    - I like math course
+    - I like maths class
+    - I like missed class
+    - I like mess cross
+    - Mess class
+    - I like nice cross
+    - I like maths cross
+    - Math
+    - Math is better
+    - I choose math
+    - I will choose math
+    - I like math i choose math
+    - I like number
+    - Numbers are so fun
+    - I like to count
+    - mathematics
+    - mathematics is better
+    - Math is best
+    - I like math most
+    - Favorite math
+    - Addition, subtraction, multiplication, division
+    - plus
+    - subtraction
+    - division 
+    - Come to test my math
+    - Test my math
+    - I want to try math
+
+- intent: what_number
+  examples: |
+    - One
+    - Just [one](number)
+    - Two
+    - Three
+    - Four
+    - Five
+    - Six
+    - Seven
+    - Eight
+    - Night
+    - Ten
+    - Thirty eight
+    - Twenty
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19 
+    - 20
+    - 30
+    - 40
+    - 50 
+    - [One](number)
+    - [Two](number)
+    - [Three](number)
+    - [Four](number)
+    - [Five](number)
+    - [Six](number)
+    - [Seven](number)
+    - [Eight](number)
+    - [Night](number)
+    - [Ten](number)
+    - [Thirty eight](number)
+    - [Twenty](number)
+    - [11](number)
+    - [12](number)
+    - [13](number)
+    - [14](number)
+    - [15](number)
+    - [16](number)
+    - [17](number)
+    - [18](number)
+    - [19](number) 
+    - [20](number)
+    - [30](number)
+    - [40](number)
+    - [50](number) 
+    - [38](number) 
+    - It is [11](number)
+    - It is [19](number)
+    - It is [30](number)
+    - It is [40](number)
+    - It is [50](number)
+    - It is [one](number)
+    - It is [two](number)
+    - It is [three](number)
+    - It is [four](number)
+    - It is [five](number)
+    - It is [six](number)
+    - It is [seven](number)
+    - It is [eight](number)
+    - It is [night](number)
+    - It is [ten](number)
+    - maybe [one](number)
+    - maybe [three](number)
+    - maybe [two](number) 
+    - maybe [four](number)
+    - maybe [five](number)
+    - maybe [six](number)
+    - maybe [seven](number)
+    - maybe [eight](number) 
+    - maybe [night](number)
+    - maybe [ten](number)
+    - maybe [thirty one](number)
+    - maybe [thirty two](number)
+    - maybe [thirty three](number)
+    - maybe [thirty four](number)
+    - maybe [thirty five](number)
+    - maybe [thirty six](number)
+    - maybe [thirty seven](number)
+    - maybe [thirty eight](number)
+    - maybe [thirty night](number)
+    - maybe [fourty](number)
+    - maybe [twenty](number)
+    - I want [one](number) [bagel](goods)
+    - I want [one](number) [muffin](goods)
+    - I want [one](number) [donut](goods)
+    - I want [one](number) [apple](goods)
+    - I want [one](number) [orange](goods)
+    - I want [one](number) [watermelon](goods)
+    - I want [one](number) [juice](goods)
+    - I want [one](number) [milk](goods)
+    - I want [one](number) [tea](goods)
+    - I want [two](number) [donut](goods)
+    - I want [three](number) [muffin](goods)
+    - I want [four](number) [apples](goods)
+    - I want [five](number) [oranges](goods)
+    - I want [six](number) [watermelons](goods)
+    - I want [seven](number) [juice](goods)
+    - I want [eight](number) [milk](goods)
+    - I want [night](number) [tea](goods)
+    - I want [ten](number) [bagels](goods)
+    - I want [eleven](number) [donuts](goods)
+    - I want [twelve](number) [muffins](goods)
+    - I wnat [one hundred](number)
+    - The number is [one](number)
+    - The number is [two](number)
+    - The number is [three](number)
+    - The number is [four](number)
+    - The number is [five](number)
+    - The number is [six](number)
+    - The number is [seven](number)
+    - The number is [eight](number)
+    - The number is [night](number)
+    - The number is [ten](number)
+    - The number is [eleven](number)
+    - The number is [twelve](number)
+    - The number is [one hundred](number)
+    - I want [one](number) bottle of [juice](goods)
+    - I want [one](number) bottle of [tea](goods)
+    - I want [one](number) bottle of [milk](goods)
+    - I want [two](number) bottles of [milk](goods)
+    - I want [three](number) bottles of [tea](goods)
+    - I want [four](number) bottles of [juice](goods)
+    - I want [five](number) bottles of [milk](goods)
+    - I want [six](number) bottles of [tea](goods)
+    - I want [seven](number) bottles of [juice](goods)
+    - I want [eight](number) bottles of [milk](goods)
+    - I want [night](number) bottles of [tea](goods)
+    - I want [ten](number) bottles of [juice](goods)
+    - I want [11](number) bottles of [milk](goods)
+    - I want [13](number) bottles of [tea](goods)
+    - I want [15](number) bottles of [juice](goods)
+    - I want [20](number) bottles of [milk](goods)
+    - I want [30](number) bottles of [tea](goods)
+    - I am [seven](number)
+    - I am [eight](number)
+    - I am [night](number)
+    - I am [ten](number)
+    - I am [eleven](number)
+    - I am [seven](number) years old
+    - I am [eight](number) years old
+    - I am [night](number) years old
+    - I am [ten](number) years old
+    - I am [eleven](number) years old
+    
+- intent: park_play
+  examples: |
+    - I want to swing
+    - Play
+    - I want to play
+    - Let’s go to play
+    - I want to go on a swing
+    - I want to play on the slide
+    - I want to play under slider 
+    - Play under slide
+    - Play on the slider
+    - Play slide
+    - Ride a bicycle
+    - I want to go out to play
+    - Play on the slide
+    - Ride a bike
+    - Write a bike
+    - I want to write a bike
+    - I want write a bike
+    - I want to write
+    - I wnat to play on laura's light
+    - I want to play on this light
+
+- intent: picnic
+  examples: |
+    - I want to have a picnic here
+    - Picnic 
+    - Have a picnic 
+    - I want to have picnic
+    - I want to have a picnic
+    - I want have a picnic
+    - I want have a panic
+    - I want have panic
+    - Go have a picnic
+    - Go panic
+    - Have a picnic is great
+    - Have a panic is good
+    - Have a panic
+    - Have a pink
+
+- intent: sit
+  examples: |
+    - I want to sit
+    - I wnat to sit on the bench
+    - Sit on the bench
+    - I want to set
+    - Go to sit down
+    - I want to say
+    - I want to sit on the
+    - Sit
+    - Say to unlock bench
+    - Say to unlock battery
+    - Set on the bench 
+    - I want to sit and the bitch
+    - I want to see it
+
+# - intent: student_frog
+#   examples: |
+#     - There is a [frog](frog_name) in the punk
+#     - There is a [flock](frog_name) in the pond
+#     - Frog
+#     - Have a [frog](frog_name)
+#     - A [frock](frog_name)
+#     - Where is a [frock](frog_name) in the pond
+#     - Where is a [fuck](frog_name) in the punk
+#     - There is a [fuck](frog_name) in the pond
+#     - There is a [frog](frog_name) in the punk
+#     - Where is the [frog](frog_name) in the phone
+#     - There is a [truck](frog_name) in a pond
+#     - There is a [frog](frog_name) in the pond
+#     - [Frog](frog_name)
+#     - Have [frog](frog_name)
+#     - A [frog](frog_name)
+#     - Have a [frog](frog_name)
+#     - Where is a [frog](frog_name) in the pond
+#     - There is a [frog](frog_name) in the punk
+#     - Where is the [frog](frog_name) in the phone
+#     - Big [frog](frog_name)
+#     - Have a [frock](frog_name)
+#     - Have a [flock](frog_name)
+#     - There is a [frock](frog_name) in the punk
+#     - There is a [flock](frog_name) in the pond
+
+- intent: student_frog
+  examples: |
+    - There is a [duck](duck_name) in the punk
+    - There is a [duck](duck_name) in the pond
+    - Duck
+    - Have a [duck](duck_name)
+    - A [duck](duck_name)
+    - Where is a [duck](duck_name) in the pond
+    - Where is a [duck](duck_name) in the punk
+    - There is a [duck](duck_name) in the pond
+    - There is a [talk](duck_name) in the punk
+    - Where is the [talk](duck_name) in the phone
+    - There is a [talk](duck_name) in a pond
+    - There is a [duck](duck_name) in the pond
+    - [Duck](duck_name)
+    - Have [duck](duck_name)
+    - A [duck](duck_name)
+    - Have a [talk](duck_name)
+    - Where is a [dark](duck_name) in the pond
+    - There is a [dark](duck_name) in the punk
+    - Where is the [dark](duck_name) in the phone
+    - Big [talk](duck_name)
+    - Have a [duck](duck_name)
+    - Have a [dark](duck_name)
+    - There is a [dark](duck_name) in the punk
+    - There is a [dark](duck_name) in the pond
+
+
+- intent: library
+  examples: |
+    - I want to borrow books
+    - I want to return the book
+    - I want to go to the library to read
+    - I want to go to the library to find books
+    - I want to look for some books
+    - I want to read novels
+    - I want to borrow the video
+    - I want to return the video
+    - I got a new book to read tomorrow I am not buying it though They have it at the library lls
+    - I want to read the book
+
+- intent: quiet
+  examples: |
+    - We need to be quiet
+    - Quiet please
+    - Library quiet please
+    - Quiet
+    - Please be quiet in the library
+    - Police required in the library
+    - Police record in the library
+
+
+- intent: student_yellow
+  examples: |
+    - There is number in there
+    - There are numbers in this book
+    - There is a seven in this book
+    - There is a eight in this book
+    - There is a nine in this book
+    - There is a number in this book
+    - There is number in here
+    - Many numbers
+    - Number
+    - Numbers
+    - There are numbers in the book
+    - There are numbers in this book 
+    - Seven
+    - seven
+    - Have seven
+    - I see seven
+    - I see a number
+    - I see one number
+    - I see seven in the book
+
+
+- intent: student_green
+  examples: |
+    - There are animals in there  
+    - There is animal in the book
+    - Where is animal in the book
+    - There are animal in the book
+    - Animals
+    - Animal
+    - Chicken
+    - chuckle
+    - Have chicken
+    - There are chicken in the book
+    - Where are chicken in the book
+    - There is chicken in the book
+    - There are dog in the book
+    - There are frog in the book
+    - Have animals
+
+- intent: student_purple
+  examples: |
+    - There is fruit in there
+    - There is watermelon in there
+    - There is watermelon in the book
+    - There is water madin in the book
+    - There is water menon in the book
+    - Where is watermelon in there
+    - There are fruits in the book
+    - There are flute in the book
+    - There are watermelon in the book
+    - There are watermelons in the book
+    - There are frozen in the book
+    - Fruit
+    - Have fruits
+    - Many fruits
+    - I see one watermelon
+    - Have a watermelon
+    - Big watermelon
+
+- intent: color
+  examples: |
+    - Yellow
+    - Purple
+    - Green
+    - Black
+    - Gray
+    - Red 
+    - White 
+    - Blue
+    - Pink
+    - Skin 
+    - Brown
+    - Amber
+    - [Yellow](color)
+    - [Purple](color)
+    - [Green](color)
+    - It is [white](color)
+    - It is [gray](color)
+    - It is [black](color)
+    - It is [green](color)
+    - It is cream
+    - It is scream
+    - It's [green](color)
+    - The [yellow](color) one
+    - The [purple](color) one
+    - The [green](color) one
+    - I want to read the [yellow](color) book
+    - I want to read the [purple](color) book
+    - I want to read the paper book
+    - I want to read paper book
+    - I want to read cream book
+    - I want to read the [green](color) book
+    - I want to borrow all 
+    - I want to borrow [yellow](color) book
+    - I wnat to borrow [purple](color) book
+    - I wnat to borrow [green](color) book
+    - I like [yellow]
+    - I like [green]
+    - I like [red]
+    - I like [pink]
+    - I like [blue]
+    - I like [purple]
+    - I like [black]
+    - I like [white]
+    - I like [gray]
+    - I like [brown]
+    - I want throw ball row [yellow](color) book
+    - I want to ball row euro book
+    - I want to Bara [yellow](color) book
+    - I want to throw ball row Paul book
+    - I want to borrow your book
+    - I want to Polo [purple](color) book
+    - It is [cream](color)
+    - It is [scream](color)
+    - It is [screen](color)
+    - It's [green](color)
+    - It's [cream](color)
+    - It's [screen](color)
+    - Cream
+    - Screen
+    - That is [green](color)
+    - That is [cream](color)
+
+
+- intent: animal
+  examples: |
+    - Pig
+    - Dog
+    - cat 
+    - Rabbit 
+    - Dinosaur
+    - Snake
+    - Tiger 
+    - Mouse
+    - Lion
+    - I like cat
+    - I like dog
+    - I like dinosaur
+    - I like pig 
+    - I like rabbit 
+    - I like tiger 
+    - I like Tiger 
+    - I like lion 
+    - I like snake 
+    - I like house 
+    - I like chicken
+    - I like bear 
+    - I like zebra
+    - I like tiger
+    - I like lion
+    - I like Nain
+    - I like bird
+    - I like further
+    - I like elephant
+    - I like kangaroo
+    - I like puppy
+    - I like kitten
+    - I like horse
+    - I like panda
+    - I like crocodile
+    - I like snake
+    - I like fish
+    - I like butterfly
+    - I Naika elephant
+    - Hi Naika elephant
+    - I like earphone
+
+
+- intent: pruple_fruits
+  examples: |
+    - Grape
+    - Strawberry
+    - Mango 
+    - Guava
+    - Papaya 
+    - Tomato 
+    - Kiwi 
+    - Peach 
+    - Cherry 
+    - Pineapple
+    - Durianpear
+    - Passion fruit
+    - I like apples
+    - I like Apples
+    - I like Apple
+    - I like orange
+    - I like oranges
+    - I like watermelon
+    - I like watermelons
+    - I like banana
+    - I like strawberry
+    - I like mango
+    - I like pineapple
+    - I like guava
+    - I like grape 
+    - I like lemon
+
+
+- intent: locations_place_school
+  examples: |
+    - I want to go to the [school](location)
+    - I am going to the [school](location)
+    - Go to the [school](location)
+    - I want to go [school](location)
+    - Go [school](location)
+
+- intent: locations_place_library
+  examples: |
+    - I want to go to the [library](location)
+    - I am going to the [library](location)
+    - Go to the [library](location)
+    - I want to go [library](location)
+    - Go [library](location)
+
+- intent: locations_place_park
+  examples: |
+    - I want to go to the [park](location)
+    - I am going to the [park](location)
+    - Go to the [park](location)
+    - I want to go [park](location)
+    - Go [park](location)
+
+
+
+- intent: locations_place_supermarket
+  examples: |
+    - I want to go to the [supermarket](location)
+    - I am going to the [supermarket](location)
+    - Go to the [supermarket](location)
+    - I want to go [supermarket](location)
+    - Go [supermarket](location)
+    - I want to go to a [supermarket](location)
+    - I am going to a [supermarket](location)
+    - Go to a [supermarket](location)
+    - I want to go [supermarket](location)
+    - Go [supermarket](location)
+    - Yes go to the [supermarket](location)
+    - Okay go to less [supermarket](location)
+    - Okay go to the [supermarket](location)
+    - Okay let's go to the [supermarket](location)
+    - Yes let's go to the [supermarket](location)
+    - Yes let's go to less [supermarket](location)
+
+
+
+
+# - intent: supermarket
+#   examples: |
+#     - I want to buy some food
+#     - I want to buy some drink.
+#     - I want to buy some cookies
+#     - I want to buy fruits and vegetables
+#     - I want to buy something
+#     - I want to buy some water
+#     - I want to buy some candy
+#     - I want to buy daily necessities
+#     - I want to buy toiletries
+#     - I want to buy some kitchen utensils
+#     - I want to go to a place with a lot of goods
+   
+
+# - intent: school
+#   examples: |
+#     - I am going for an exam
+#     - I want to find a teacher
+#     - I want to find classmates
+#     - I am going to meet my classmates
+#     - I am going to find classmates to play games
+#     - I am going to discuss homework with classmates
+#     - I have schoolwork questions to ask the teacher
+#     - I want to participate in summer camp
+#     - I want to learn physical education
+#     - I am going to class
+#     - I am going to study
+   
+
+
+
+
+
+
+
+# - intent: swimming_pool
+#   examples: |
+#     - I want to swim
+#     - I want to learn to swim
+#     - I want to play in the water
+#     - I want to go to the swimming pool
+#     - I want to practice swimming
+#     - I want to swim freestyle
+#     - I want to swim breaststroke
+#     - I want to swim backstroke
+#     - I want to learn swimming
+#     - I want to play with water gun
+#     - I want to practice water ballet
+#     - I want to play water slide
+
+# - intent: park
+#   examples: |
+#     - I want to go for a walk 
+#     - I want to go on a swing 
+#     - I want to go on a slide
+#     - I want to fly a kite
+#     - I want to go walking the dog
+#     - I want to go for a run in the park
+#     - I want to play on the seesaw
+#     - I want to play on the swing 
+#     - I want to play the slide
+#     - I want to have a picnic
+
+
+
+
+- intent: thanks
+  examples: |
+    - Thanks
+    - thank you
+    - Thanks a lot
+    - Thank you very much
+    - Many thanks
+    - Thank you so much
+    - Thank you bot
+    - Thanks bot
+    - Cheers
+    - Ok thanks
+    - Thanks for your help
+    - Cool thanks
+    - Cool thank you
+    - Thanks bro 
+    - Thanks bro
+    - thanks
+    - Thank you
+    - Okay thank you
+    - Okay thanks
+    - Great thank you
+    - Great thanks
+# - intent: help
+#   examples: |
+#     - Can you help me
+#     - Excuse me
+#     - May I ask that
+#     - May I Ask You Something
+#     - May I Ask You A Question
+
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - Who are you
+    - What are you
+    - Who made you
+    - Bot right
+    - you are a bot right
+  
+
+
+
+# - intent: school_need
+#   examples: |
+#     - I need a pencil case 
+#     - A bag 
+#     - I need a bag
+#     - I need a notebook
+#     - Notebook
+#     - I need a bottle of kettle
+#     - ruler
+#     - Eraser
+#     - scissors
+#     - I need a few pencils in the pencil box
+#     - Stationery
+#     - I need some stationery
+#     - highlighter
+#     - I need a highlighter
+#     - Maybe color pen
+#     - a white-out
+#     - a compass
+#     - a glue
+#     - box cutter
+#     - I will need a scissor 
+#     - I will need a compass
+#     - I will need a glue
+#     - Maybe i will need a white-out
+
+- intent: nlu_fallback
+  examples: |
+    - ABC ABC
+    - ABC
+    - fdsnfjerjr
+    - ejwroi
+    - jehirwofnjhdks
+    - 123
+    - 456
+    - 789
+    - jfd45
+    - weioklc
+    - anwcvoeq
+    - stupid
+    - shit
+    - fuck
+    - foolish
+    - qwe
+    - blah blah 
+    - Blah 
+    - Your are foolish
+    - Your are stupid 
+    
+    
+
+- intent: Go_restaurant
+  examples: |
+    - Go to the [restaurant](location)
+    - I want to go to the [restaurant](location)
+    - I am going to the [restaurant](location)
+    - Go to the [restaurant](location)
+    - I want to go [restaurant](location)
+    - Go [restaurant](location)
+    - Next I will go to the [restaurant](location)
+    - Next go to the [restaurant](location)
+
+- intent: have_reservation
+  examples: |
+    - I am roxy
+    - I am jack
+    - I am Andy
+    - I am Apple
+    - I am Kevin
+    - I am Alice
+    - I am Alisa
+    - I am Amy
+    - I am Anna
+    - I am Bella
+    - I am Chloe
+    - I am Eric
+    - I am Ferdinand
+    - I am Geoffrey
+    - I am James
+    - I am Jay
+    - I am Jason
+    - My name is jack
+    - My name is andy
+    - My name is andy
+    - My name is Apple
+    - My name is Kevin
+    - My name is Alice
+    - My name is Alisa
+    - My name is Amy
+    - My name is Anna
+    - My name is Bella
+    - My name is Chloe
+    - My name is Eric
+    - My name is Ferdinand
+    - My name is Geoffrey
+    - My name is James
+    - My name is Jay
+
+
+
+- intent: spaghetti_meal
+  examples: |
+    - Spaghetti
+    - [Spaghetti](meal1)
+    - May I have the [spaghetti](meal1) 
+    - I want a [spaghetti](meal1)
+    - A [spaghetti](meal1)
+    - I want to eat [spaghetti](meal1)
+    - Order a [spaghetti](meal1) first
+    - Order 5 [spaghetti](meal1) first
+    - Order [spaghetti](meal1) first
+    - Order 5 [spaghetti](meal1)
+    - This [spaghetti](meal1) 
+    - Mam I have no [spaghetti](meal1) 
+    - May I have the super Kutty
+
+- intent: French_fries_meal
+  examples: |
+    - [French fries](meal2)
+    - French fries
+    - May I have the [French fries](meal2) 
+    - I want a [French fries](meal2)
+    - A [French fries](meal2)
+    - I want to eat [French fries](meal2)
+    - Order a [French fries](meal2) first
+    - Order 5 [French fries](meal2) first
+    - Order [French fries](meal2) first
+    - Order 5 [French fries](meal2) 
+    - This [French fries](meal2)
+    - Maha food a French files
+
+- intent: soda_meal
+  examples: |
+    - Soda
+    - May I have the [soda](meal3) 
+    - I want a [soda](meal3)
+    - A [soda](meal3)
+    - I want to drink [soda](meal3)
+    - Order a [soda](meal3) first
+    - Order 5 [soda](meal3) first
+    - Order [soda](meal3) first
+    - Order 5 [soda](meal3) 
+    - This [soda](meal3)
+    - Sauda
+    - May I have the [sauda](meal3) 
+    - I want a [soda](meal3)
+    - A [so that](meal3)
+    - I want to drink [so that](meal3)
+    - Order a [sauda](meal3) first
+    - Order 5 [so that](meal3) first
+    - Order [sauda](meal3) first
+    - Order 5 [so that](meal3) 
+    - This [so that](meal3) 
+    - May I have the Sauda
+    - May I have full of soda
+    - May I have full of Sauda
+    - Sauda
+    - Have a Sauda
+
+
+- intent: more_meal
+  examples: |
+    - Yes, please. Can I get one [soda](meal3)
+    - Yes, please. Can I get one [spaghetti](meal1)
+    - Yes, please. Can I get one [French fries](meal2)
+    - Can I get one [soda](meal3)
+    - Can I get one [spaghetti](meal1)
+    - Can I get one [French fries](meal2)
+    - One [soda](meal3)
+    - One [spaghetti](meal1)
+    - One [French fries](meal2)
+    - Yes, please. Can I get a [soda](meal3)
+    - Yes, please. Can I get a [spaghetti](meal1)
+    - Yes, please. Can I get a [French fries](meal2)
+    - Can I get a [soda](meal3)
+    - Can I get a [spaghetti](meal1)
+    - Can I get a [French fries](meal2)
+    - Yes, please. Can I get [soda](meal3)
+    - Yes, please. Can I get [spaghetti](meal1)
+    - Yes, please. Can I get [French fries](meal2)
+    - Can I get [soda](meal3)
+    - Can I get [spaghetti](meal1)
+    - Can I get [French fries](meal2)
+    
+- intent: check_A
+  examples: |
+    - Excuse me can I have the check please
+    - Can I have the check please
+    - can I have the check 
+    - Check please
+    - May I have the bill please
+    - May I have the check please
+    - Could I get the bill please?
+    - Could I get the check please?
+    - Can I have the check a police
+    - Can I have the check up please
+    - Can I have the shake please
+    - Can I have the checked police
+
+- intent: meal_felling
+  examples: |
+    - It was great
+    - Not bad Hope you could serve the food faster next time
+    - Not bad
+    - Delicious 
+    - It was delicious
+    - It was tasty
+    - Good
+    - Great
+    - Tasty
+    - Tastes great
+    - Really good
+    - Wow this food is amazing
+    - Yummy
+    - It could use a little more
+    - It could use a little less 
+    - This tastes different
+    - Not good
+    - Terrible
+    - Horrible
+    - Awful
+    - Tasteless
+    - Funny
+    - It was terrible
+    - It was horrible
+    - It was awful
+    - It was unpalatable
+    - It was unsavory
+    - It was yummy
+    - It was funny
+    - It was tasteless
+    - It was too salty
+    - It was too spicy
+
+- intent: take_out
+  examples: |
+    - Can I order to go
+    - Can I get this to go
+    - To go please
+    - Take out
+    - Take out please
+    - Take away
+    - Take away please
+    - Can I take away
+    - Can I take out
+
+  
+
+
+
+

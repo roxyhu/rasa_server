@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Let\u2019s go",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9980907440185547
+    }
+  },
+  {
+    "text": "Go to the park",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.9999955892562866
+    }
+  },
+  {
+    "text": "I want to go to the park",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "I want to buy some kitchen utensils",
+    "intent": "supermarket",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9214069843292236
+    }
+  },
+  {
+    "text": "I would like some cakes",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.9968629479408264
+    }
+  },
+  {
+    "text": "I want to find a teacher",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9366843700408936
+    }
+  },
+  {
+    "text": "Ten",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.603042483329773
+    }
+  },
+  {
+    "text": "Skin",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.4340267777442932
+    }
+  },
+  {
+    "text": "Yellow",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999176263809204
+    }
+  },
+  {
+    "text": "Crown",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9099819660186768
+    }
+  },
+  {
+    "text": "Stationery",
+    "intent": "school_need",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.9993951916694641
+    }
+  },
+  {
+    "text": "foolish",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "english_class",
+      "confidence": 0.9997742772102356
+    }
+  },
+  {
+    "text": "ejwroi",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.993170440196991
+    }
+  },
+  {
+    "text": "fdsnfjerjr",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.4280951917171478
+    }
+  },
+  {
+    "text": "stupid",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9679547548294067
+    }
+  }
+]

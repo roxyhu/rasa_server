@@ -1,0 +1,44 @@
+[
+  {
+    "text": "maybe thirty one",
+    "entities": [
+      {
+        "start": 6,
+        "end": 16,
+        "value": "thirty one",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 13,
+        "end": 16,
+        "confidence_entity": 0.9997995495796204,
+        "value": "one",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "maybe thirty eight",
+    "entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "value": "thirty eight",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.999920129776001,
+        "value": "eight",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

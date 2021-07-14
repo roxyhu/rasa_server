@@ -1,0 +1,406 @@
+[
+  {
+    "text": "good night",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.6117128729820251,
+        "value": "night",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No I don\u2019t.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.570102870464325,
+        "value": "t",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like some drinks",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9991461038589478,
+        "value": "drinks",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can help me get some drinks",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.7550391554832458,
+        "value": "drinks",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a watermelon",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "watermelon",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to buy some bagels",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "bagels",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to get some muffins",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "value": "muffins",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to get some watermelons",
+    "entities": [
+      {
+        "start": 19,
+        "end": 30,
+        "value": "watermelons",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like some watermelons",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "watermelons",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like some orange",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "orange",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like some bread",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "bread",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like some fruits",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "fruits",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want a watermelon",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "watermelon",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want an orange",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "orange",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Juice",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8403174877166748,
+        "value": "Juice",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Just one",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "one",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Six",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9994683861732483,
+        "value": "Six",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thirty eight",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.673978865146637,
+        "value": "Thirty",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want four",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "four",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I wnat one hundred",
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "value": "one hundred",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to go to the supermarket",
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "value": "supermarket",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am going to the supermarket",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "supermarket",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Go to the supermarket",
+    "entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "supermarket",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to go to the library",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "library",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am going to the library",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "library",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Go to the library",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "library",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to go to the park",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "park",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am going to the park",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "park",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Go to the park",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "park",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to go to the swimming pool",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9983294606208801,
+        "value": "pool",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The purple one",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.7164775729179382,
+        "value": "one",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I see a apple by bite",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 8,
+        "end": 13,
+        "confidence_entity": 0.8799343109130859,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

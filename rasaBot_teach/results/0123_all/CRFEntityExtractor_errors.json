@@ -1,0 +1,30 @@
+[
+  {
+    "text": "ms firecracker What did I forget to pick up at the supermarket",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 51,
+        "end": 62,
+        "confidence_entity": 0.692782003543113,
+        "value": "supermarket",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want to go for a run in the park",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.6763889248298437,
+        "value": "park",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

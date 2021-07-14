@@ -1,0 +1,18 @@
+version: "2.0"
+stories:
+- story: supermarket 2 (C:\Users\roxy\AppData\Local\Temp\tmp6d6mljh9\aa3049e2a2b34a7d952c5c78c4f0ee24_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: supermarket  # predicted: supermarket_goods: I have a supermarket discount [coupon](goods)
+  - action: utter_supermarket
+  - intent: goodbye  # predicted: affirm: bye-bye!
+  - action: utter_goodbye  # predicted: utter_errorword
+- story: say goodbye (C:\Users\roxy\AppData\Local\Temp\tmp6d6mljh9\aa3049e2a2b34a7d952c5c78c4f0ee24_test_stories.yml)
+  steps:
+  - intent: goodbye  # predicted: affirm: bye-bye!
+  - action: utter_goodbye  # predicted: utter_greet
+- story: bot challenge (C:\Users\roxy\AppData\Local\Temp\tmp6d6mljh9\aa3049e2a2b34a7d952c5c78c4f0ee24_test_stories.yml)
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot  # predicted: utter_bot_challenge

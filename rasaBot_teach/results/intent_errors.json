@@ -1,0 +1,946 @@
+[
+  {
+    "text": "hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9938254356384277
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8473362326622009
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5478594899177551
+    }
+  },
+  {
+    "text": "moin",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.8545921444892883
+    }
+  },
+  {
+    "text": "hey there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6704416275024414
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 0.2942293584346771
+    }
+  },
+  {
+    "text": "goodmorning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8884648680686951
+    }
+  },
+  {
+    "text": "goodevening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "swimming_pool",
+      "confidence": 0.37188994884490967
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.6887812614440918
+    }
+  },
+  {
+    "text": "Hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9955375790596008
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9965731501579285
+    }
+  },
+  {
+    "text": "cee you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "class",
+      "confidence": 0.30742111802101135
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.8784606456756592
+    }
+  },
+  {
+    "text": "see you around",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "school_play",
+      "confidence": 0.9536258578300476
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "play",
+      "confidence": 0.3416348099708557
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.9957008957862854
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "math_class",
+      "confidence": 0.8443140387535095
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.37127983570098877
+    }
+  },
+  {
+    "text": "You bet",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.46445393562316895
+    }
+  },
+  {
+    "text": "Let\u2019s go",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 0.30000972747802734
+    }
+  },
+  {
+    "text": "Okay here you are.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.33219435811042786
+    }
+  },
+  {
+    "text": "Here you are.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9042261838912964
+    }
+  },
+  {
+    "text": "n",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.960191547870636
+    }
+  },
+  {
+    "text": "Bread",
+    "intent": "bread",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.9310240745544434
+    }
+  },
+  {
+    "text": "I want to buy some bread",
+    "intent": "bread",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.5512593984603882
+    }
+  },
+  {
+    "text": "I would like some breads",
+    "intent": "bread",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.8677754998207092
+    }
+  },
+  {
+    "text": "I would like some drinks",
+    "intent": "drinks",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9999927878379822
+    }
+  },
+  {
+    "text": "Can help me get some drinks",
+    "intent": "drinks",
+    "intent_prediction": {
+      "name": "locations_place",
+      "confidence": 0.4216822385787964
+    }
+  },
+  {
+    "text": "I want to buy a watermelon",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "swimming_pool",
+      "confidence": 0.9526026248931885
+    }
+  },
+  {
+    "text": "I want to buy some bagels",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "drinks",
+      "confidence": 0.8206122517585754
+    }
+  },
+  {
+    "text": "I would like some fruits",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "fruits",
+      "confidence": 0.5448763966560364
+    }
+  },
+  {
+    "text": "I want a watermelon",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "swimming_pool",
+      "confidence": 0.9141657948493958
+    }
+  },
+  {
+    "text": "I want an orange",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.9997060298919678
+    }
+  },
+  {
+    "text": "Bagel",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7107024192810059
+    }
+  },
+  {
+    "text": "Dount",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9525484442710876
+    }
+  },
+  {
+    "text": "Muffin",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.8084051609039307
+    }
+  },
+  {
+    "text": "Orange",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.9999647736549377
+    }
+  },
+  {
+    "text": "Watermelon",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "swimming_pool",
+      "confidence": 0.9451589584350586
+    }
+  },
+  {
+    "text": "Milk",
+    "intent": "supermarket_goods",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5301889777183533
+    }
+  },
+  {
+    "text": "I want to play basketball",
+    "intent": "play",
+    "intent_prediction": {
+      "name": "swimming_pool",
+      "confidence": 0.597549557685852
+    }
+  },
+  {
+    "text": "Basketball",
+    "intent": "play",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.5628560185432434
+    }
+  },
+  {
+    "text": "Play basketball",
+    "intent": "play",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4082849323749542
+    }
+  },
+  {
+    "text": "Class",
+    "intent": "class",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5513840913772583
+    }
+  },
+  {
+    "text": "I like foreigners",
+    "intent": "english_class",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.7028288841247559
+    }
+  },
+  {
+    "text": "Want to use a foreign language",
+    "intent": "english_class",
+    "intent_prediction": {
+      "name": "color",
+      "confidence": 0.6112321615219116
+    }
+  },
+  {
+    "text": "Turn left",
+    "intent": "instruction",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.5343813896179199
+    }
+  },
+  {
+    "text": "Turn right",
+    "intent": "instruction",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9993438720703125
+    }
+  },
+  {
+    "text": "I like number",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.3644767999649048
+    }
+  },
+  {
+    "text": "Numbers are so fun",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "student",
+      "confidence": 0.9429108500480652
+    }
+  },
+  {
+    "text": "I like to count",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4030405580997467
+    }
+  },
+  {
+    "text": "plus",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9926791787147522
+    }
+  },
+  {
+    "text": "division",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.760444164276123
+    }
+  },
+  {
+    "text": "Just one",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9806085228919983
+    }
+  },
+  {
+    "text": "Three",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "errorword",
+      "confidence": 0.8126009702682495
+    }
+  },
+  {
+    "text": "Four",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "english_class",
+      "confidence": 0.5584140419960022
+    }
+  },
+  {
+    "text": "Eight",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3711613714694977
+    }
+  },
+  {
+    "text": "I want four",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.6352686882019043
+    }
+  },
+  {
+    "text": "I wnat one hundred",
+    "intent": "what_number",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.5040087699890137
+    }
+  },
+  {
+    "text": "I want to go to the supermarket",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.5891018509864807
+    }
+  },
+  {
+    "text": "I am going to the supermarket",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.6492657661437988
+    }
+  },
+  {
+    "text": "Go to the supermarket",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.6680217981338501
+    }
+  },
+  {
+    "text": "I want to go to the library",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.49153971672058105
+    }
+  },
+  {
+    "text": "I am going to the library",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.6643083095550537
+    }
+  },
+  {
+    "text": "Go to the library",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.6863434910774231
+    }
+  },
+  {
+    "text": "I want to go to the park",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "class",
+      "confidence": 0.6921308040618896
+    }
+  },
+  {
+    "text": "I am going to the park",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "class",
+      "confidence": 0.5305187702178955
+    }
+  },
+  {
+    "text": "Go to the park",
+    "intent": "locations_place",
+    "intent_prediction": {
+      "name": "class",
+      "confidence": 0.6203208565711975
+    }
+  },
+  {
+    "text": "I want to buy some drink.",
+    "intent": "supermarket",
+    "intent_prediction": {
+      "name": "drinks",
+      "confidence": 0.9997730255126953
+    }
+  },
+  {
+    "text": "I want to buy something",
+    "intent": "supermarket",
+    "intent_prediction": {
+      "name": "drinks",
+      "confidence": 0.99468594789505
+    }
+  },
+  {
+    "text": "I want to buy some water",
+    "intent": "supermarket",
+    "intent_prediction": {
+      "name": "drinks",
+      "confidence": 0.7241005897521973
+    }
+  },
+  {
+    "text": "I want to buy toiletries",
+    "intent": "supermarket",
+    "intent_prediction": {
+      "name": "drinks",
+      "confidence": 0.5789286494255066
+    }
+  },
+  {
+    "text": "I want to go to a place with a lot of goods",
+    "intent": "supermarket",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.5624046325683594
+    }
+  },
+  {
+    "text": "I am going for an exam",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "supermarket",
+      "confidence": 0.855423092842102
+    }
+  },
+  {
+    "text": "I have schoolwork questions to ask the teacher",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "locations_place",
+      "confidence": 0.8687511086463928
+    }
+  },
+  {
+    "text": "I want to participate in summer camp",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.4739305377006531
+    }
+  },
+  {
+    "text": "I want to learn physical education",
+    "intent": "school",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.5360958576202393
+    }
+  },
+  {
+    "text": "I want to return the book",
+    "intent": "library",
+    "intent_prediction": {
+      "name": "student",
+      "confidence": 0.8598663806915283
+    }
+  },
+  {
+    "text": "I want to go to the library to read",
+    "intent": "library",
+    "intent_prediction": {
+      "name": "class",
+      "confidence": 0.5866738557815552
+    }
+  },
+  {
+    "text": "I want to look for some books",
+    "intent": "library",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.8848403096199036
+    }
+  },
+  {
+    "text": "I want to read novels",
+    "intent": "library",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9517085552215576
+    }
+  },
+  {
+    "text": "I want to return the video",
+    "intent": "library",
+    "intent_prediction": {
+      "name": "class",
+      "confidence": 0.41875118017196655
+    }
+  },
+  {
+    "text": "I want to go to the swimming pool",
+    "intent": "swimming_pool",
+    "intent_prediction": {
+      "name": "locations_place",
+      "confidence": 0.9994140863418579
+    }
+  },
+  {
+    "text": "I want to fly a kite",
+    "intent": "park",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.5871879458427429
+    }
+  },
+  {
+    "text": "I want to play on the seesaw",
+    "intent": "park",
+    "intent_prediction": {
+      "name": "swimming_pool",
+      "confidence": 0.9776614308357239
+    }
+  },
+  {
+    "text": "I want to play the slide",
+    "intent": "park",
+    "intent_prediction": {
+      "name": "swimming_pool",
+      "confidence": 0.9998968839645386
+    }
+  },
+  {
+    "text": "Cheers",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9518408179283142
+    }
+  },
+  {
+    "text": "Purple",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7287209630012512
+    }
+  },
+  {
+    "text": "Black",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "errorword",
+      "confidence": 0.7834482789039612
+    }
+  },
+  {
+    "text": "Gray",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8469415903091431
+    }
+  },
+  {
+    "text": "Red",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.5965526103973389
+    }
+  },
+  {
+    "text": "Blue",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "errorword",
+      "confidence": 0.7887783050537109
+    }
+  },
+  {
+    "text": "Pink",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9788103103637695
+    }
+  },
+  {
+    "text": "Skin",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9994382262229919
+    }
+  },
+  {
+    "text": "Brown",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.32164809107780457
+    }
+  },
+  {
+    "text": "Amber",
+    "intent": "color",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.8720986843109131
+    }
+  },
+  {
+    "text": "Crown",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9016016721725464
+    }
+  },
+  {
+    "text": "Have queen",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.718124270439148
+    }
+  },
+  {
+    "text": "Have animal",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.9749132990837097
+    }
+  },
+  {
+    "text": "I see a apple by bite",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9618423581123352
+    }
+  },
+  {
+    "text": "I see a bad huy",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.9497697353363037
+    }
+  },
+  {
+    "text": "High heels",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7439471483230591
+    }
+  },
+  {
+    "text": "I see a high heel",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "school_need",
+      "confidence": 0.9793562293052673
+    }
+  },
+  {
+    "text": "I see a pumpkin car",
+    "intent": "student",
+    "intent_prediction": {
+      "name": "library",
+      "confidence": 0.8239299654960632
+    }
+  },
+  {
+    "text": "Notebook",
+    "intent": "school_need",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7656832337379456
+    }
+  },
+  {
+    "text": "Stationery",
+    "intent": "school_need",
+    "intent_prediction": {
+      "name": "what_number",
+      "confidence": 0.38842853903770447
+    }
+  },
+  {
+    "text": "a white-out",
+    "intent": "school_need",
+    "intent_prediction": {
+      "name": "park",
+      "confidence": 0.6158761382102966
+    }
+  },
+  {
+    "text": "a glue",
+    "intent": "school_need",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.20572811365127563
+    }
+  },
+  {
+    "text": "ABC ABC",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.994902491569519
+    }
+  },
+  {
+    "text": "ABC",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9473589658737183
+    }
+  },
+  {
+    "text": "fdsnfjerjr",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8047381043434143
+    }
+  },
+  {
+    "text": "ejwroi",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7514253854751587
+    }
+  },
+  {
+    "text": "jehirwofnjhdks",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "supermarket_goods",
+      "confidence": 0.9621590971946716
+    }
+  },
+  {
+    "text": "jfd45",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9965110421180725
+    }
+  },
+  {
+    "text": "weioklc",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9896296858787537
+    }
+  },
+  {
+    "text": "stupid",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4127960205078125
+    }
+  },
+  {
+    "text": "shit",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9914475083351135
+    }
+  },
+  {
+    "text": "fuck",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9935516119003296
+    }
+  },
+  {
+    "text": "foolish",
+    "intent": "errorword",
+    "intent_prediction": {
+      "name": "english_class",
+      "confidence": 0.9969877600669861
+    }
+  }
+]

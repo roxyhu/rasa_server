@@ -1,0 +1,34 @@
+[
+  {
+    "text": "I will choose English",
+    "intent": "english_class",
+    "intent_prediction": {
+      "name": "school",
+      "confidence": 0.9999959468841553
+    }
+  },
+  {
+    "text": "English is better",
+    "intent": "english_class",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9517082571983337
+    }
+  },
+  {
+    "text": "I like math course",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9969148635864258
+    }
+  },
+  {
+    "text": "Math is better",
+    "intent": "math_class",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9822540283203125
+    }
+  }
+]

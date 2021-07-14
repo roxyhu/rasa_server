@@ -1,0 +1,173 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey there
+    - Hello
+    - goodmorning
+    - good morning
+- intent: goodbye
+  examples: |
+    - see you later
+    - goodbye
+- intent: affirm
+  examples: |
+    - ok
+    - correct
+    - indeed
+- intent: deny
+  examples: |
+    - I don't want to go there
+    - no way
+    - never
+- intent: locations_place
+  examples: |
+    - Go to the [park](location)
+    - Go to the [library](location)
+    - I want to go to the [library](location)
+- intent: supermarket
+  examples: |
+    - hamdeansandwich At ur local supermarket just ask the cashier for the candles
+    - Morrisons like the best supermarket ever When you coming to South Trafford
+    - Amplitude The amplitude of the parking lot in front of the supermarket is amazing
+    - I want to buy something
+    - Toosdayborn Luckys Supermarket
+    - I want to buy some kitchen utensils
+    - I want to buy toiletries
+    - chbergma I don t wanna go with kids to the supermarket it s a hassle when they cannot touch anything or get close to people That s why we do it in the evening when it s quiet and there s time I m really really shocked by this early time it gives me a lot of stress
+    - Exercise Fitness Yoga Mats ksh 2000 only Call WhatsApp 0718872681 0726427550 We are located along Tom Mboya Street Oshwal House 3rd Floor - Next to Quickmatt Supermarket - Odeon   Tom Mboya Street Nairobi
+    - How would you describe the person who handles every vegetable or fruit in supermarket before deciding which one they want  Does pedant cover it
+    - MrNickKnowles Understand your reasoning Nick but then you could say the same for Supermarket workers and Teachers Would this then put our older age group further behind having the jab though Hard choice to make
+    - leannemac4 Woods are off limit but the local supermarket is just fine
+- intent: supermarket_goods
+  examples: |
+    - I would like some [white breads](goods)
+    - I want to get some [milk tea](goods)
+    - I want to get some [watermelons](goods)
+    - I want to buy a [white radish](goods)
+    - I would like some [green tea](goods)
+    - I want to get some [coffee](goods)
+    - I want to buy a [corn](goods)
+    - I want to get some [muffins](goods)
+    - I would like some [bagels](goods)
+- intent: school
+  examples: |
+    - So most schools have memo already I dont know what a stupid school like Fuoye is doing
+    - Smixz in the school yes
+    - and its the school both of my parents went to now i have to wait for them to wake up so i can tell them
+    - I will say though there is a reason I dont work and thats mainly cos I need to be here for the two SEN kids who are exhausting even when at school
+    - Think Im going to go back to school
+    - Online school is booooooooorrrrrrrrriiiiiiiiiiinnnnnggggg
+    - I am going to study
+    - I want to participate in summer camp
+    - MzMarxRE  HWimbushEnglish Im not sure what you mean  The document itself is blank like a normal school exercise book The students can copy over diagrams or tables from the slides if they need to or create it from scratch on their document
+    - Michigan parents back summer school for students to catch up:
+    - chidinmaekile I need to pay my house rent in school
+    - iam mompha Toyin Abraham I will you the money to buy camera then start making money in school also making a skit video and attending additions and shows God will bless and your family please pick me boss
+    - School is back on and Im already pulling all-nighters
+- intent: english_class
+  examples: |
+    - I like foreigners
+    - Like to speak english
+    - I like english course
+    - English is better
+- intent: math_class
+  examples: |
+    - I want to try math
+    - Favorite math
+    - Math is better
+    - I like to count
+    - I choose math
+- intent: library
+  examples: |
+    - I live for the high I felt as a young kid reading books all summer and filling out the local library summer reading program sheet to get free tickets to my local minor league teams baseball games
+    - I don t consider myself a jazz aficionado or connoisseur but I have a healthy amount in my library including a few Ornette Coleman albums I like very much so I m pretty interested in this
+    - slualumni long nights in pius library
+    - The man everyone would like to meet in a library Yoo Ji Ho Or Jung Hae In you decide JungHaeIn
+    - I want to read novels
+    - chrislorck Done We ve saved this tweet to your library so you can revisit remember it Stats: 1 save of this tweet ranked 10997 123 unique saves of content wisdom s tweets ranked 77 156 total saves of content wisdom s tweets ranked 81
+    - mewing23  baddestmamajama LolI have eclectic taste in reading Today  Vampires Tomorrow  Who knowsI can t remember who recommended this one Here s my current library hold list:
+    - nytimes  Kerry4taz His Presidential Library is going to have to have an impeachment wing his single greatest accomplishment as President Only two other Presidents come close
+    - night style i think neutral cooking at home nyc iced library academic gold
+    - I want to return the video
+    - How many people have just been able to keep their books from their school library after a long period of time and not suffer any consequences  Still have my high school library books no calls or trouble
+    - EmilyG  stopdropandrew I like to imagine the man in the chicken suit in the audience for that I checked that VHS out from the public library when I was little
+- intent: swimming_pool
+  examples: |
+    - swimming pool jinyoung
+    - Neon woof Wanna go for a swim in my new royalty free swimming pool  :D
+    - brooklyn saw me empty at the news theres no water inside this swimming pool
+    - I want to go to the swimming pool
+    - OutDaWayTe The swimming pool meal is EXACTLY what that is
+    - What would u guys do for ur community if u have lots of money  I d make a youth centre with library skate park swimming pool stage amp;theatre I d have a women s shelter I d make community centres for gatherings people seeking support groups- parents addicts cancer survivors
+    - Just went to the swimming pool this morning and the water was so cold all I thought was just KEONJO TEASER SABS ONEUS DEVIL and I survived the cold :]
+    - I want to swim freestyle
+    - markgibson777 It s not rocket science the town needs something that will attract visitors from outside of the area a swimming pool and a library just wont cut it The council contributed over 5m towards the transport hub All it does is make it easier to leave Shields Another Malcolm folly
+    - Glitter Willcox destroys their step-sibling on top of a swimming pool
+    - Women Exist Don t remember the swimming pool defecation plot That must have been in the Ben Affleck movie
+    - I want to play water slide
+    - Well more blah blah blah from guru Steve LOL I m so pathetic but I am 1 source of the gems of human enlightenment swimming in a pool of stupid and trying to find something useful to offer my family in return for all the great stuff you gave me in life Objectivity Rules Humanity
+- intent: park
+  examples: |
+    - michelerzz  jlrlawton  jaythenerdkid  noochmonster  aristotilus we simply don\ t have enough land to let cows graze That\ s nonsensical We have enough land to let the cows graze that we have enough land for them to graze on We could have cows grazing in every public park graze sheep on every lawn in the us etc
+    - Citys first desert park to be thrown open for public soon
+    - I want to go for a run in the park
+    - drivingmzstacey Lets start with Harding Park Lake Merced has minimal value as a public park its basically a highway and a golf course with a narrow walking path sandwiched in there
+    - Social media is not a public park for protected hate speech It s like your favorite bars You walk in with a Nazi flag and a Camp Auschwitz shirt screaming crazy things you re gonna get knocked out Then thrown out
+    - Another shot from San Angelo in the snow This is the 9th green at Santa Fe Park public golf course
+    - Ter0me Cant wait for the day this nigga leaves the public park
+    - I want to play on the swing
+    - I ll be playing my first public gig since March this Friday A drive-in movie experience in the park during  DIFFestival playing music after the films finish and then heading over to Soggy Bottom for a special screening of Check Your Body at the Door
+    - I want to go on a swing
+    - They did however reveal an attempt by Mr Degner to use his elected office as a partisan campaign platform to distract from his recent voting record on the Lakeside Park development plan and his vote against the public safety referendum 5
+    - gnarlystereo It was the first album I heard by them Then I started hearing their older stuff when I went to the skate park Also how I discovered Public Enemy and Wu-Tang Clan lol
+    - Would it be stupid dangerous for me to go to a deserted public park and not touch anything or be near anyone to breathe some fresh air
+- intent: what_number
+  examples: |
+    - maybe [two](number)
+    - I want [six](number)
+    - I want [four](number)
+    - I want [five](number)
+    - Just [one](number)
+    - maybe [ten](number)
+    - I want [eight](number)
+    - maybe [four](number)
+    - [Thirty eight](number)
+    - I want [night](number)
+- intent: thanks
+  examples: |
+    - Cool thanks
+    - Thank you so much
+    - Cool thank you
+    - Thanks
+- intent: color
+  examples: |
+    - Red
+    - I want to read the yellow book
+    - The yellow one
+    - Brown
+- intent: bot_challenge
+  examples: |
+    - Who are you
+    - am I talking to a bot?
+- intent: student
+  examples: |
+    - There are princess in the book
+    - There are girls in the book
+    - There are animal in the book
+    - There are trees in the book
+    - I see a high heel
+    - There are prince in the book
+- intent: school_need
+  examples: |
+    - I need a pencil case
+    - a glue
+    - I need a few pencils in the pencil box
+    - a compass
+    - Maybe i will need a white-out
+- intent: errorword
+  examples: |
+    - fuck
+    - shit
+    - stupid
+    - jehirwofnjhdks

@@ -1,0 +1,394 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bread
+  - drinks
+  - fruits
+  - school_play
+  - play
+  - class
+  - park_play
+  - picnic
+  - sit 
+  - bot_challenge
+  - supermarket_goods
+  - what_number
+  - thanks
+  - color
+  - student_frog
+  - english_class
+  - math_class
+  - instruction
+  - library
+  - animal
+  - student_purple
+  - student_yellow 
+  - student_green
+  - pruple_fruits
+  - locations_place_school
+  - locations_place_library
+  - locations_place_park
+  - locations_place_supermarket
+  - quiet
+  - Go_restaurant
+  - have_reservation
+  - spaghetti_meal
+  - French_fries_meal
+  - soda_meal
+  - more_meal
+  - check_A
+  - meal_felling
+  - take_out
+ 
+
+
+actions:
+  - action_price
+  - action_get_time
+  - action_check_restaurant
+  - action_park_frog
+  - action_park_2
+
+
+slots:
+  location:
+    type: text
+  goods:
+    type: text 
+  number:
+    type: text 
+  color:
+    type: text
+  meal1:
+    type: text 
+  meal2:
+    type: text 
+  meal3:
+    type: text  
+  frog_name:
+    type: text 
+  duck_name:
+    type: text 
+
+entities:
+  - location
+  - goods
+  - number
+  - color
+  - meal1
+  - meal2
+  - meal3
+  - frog_name
+  - duck_name
+
+responses:
+  utter_get_location:
+  - text: |
+      Okay, let’s go to the {location}. 
+
+  utter_greet_supermarket:
+  - text: "Welcome to our supermarket! \nWhat can I do for you? \n*Student: I would like some bread/fruits/drinks.*"
+
+
+  utter_greet_school:
+  - text: "We are at school. \nWhere do you want to go, the playground or the class? \n*Student: I want to go to the playground/class.*"
+
+  utter_greet_park:
+  - text: "Wow! \nThe park is so green. \nThere are many trees here. \nThere are many kids playing here. \nWhat do you want to do in the park? \n*Student: I want to play/have a picnic/sit on the bench.*  "
+
+  utter_get_location_library:
+  - text: "We are now in the library. \nWhat does the picture say? \n*Student: Quiet please!"
+
+  utter_bread:
+  - text: "Okay. \nWhich one do you want? \nBagel, donut, or muffin? \n*Student: I would like some bagels/donuts/muffins.*"
+  
+  utter_supermarket_goods_bread:
+  - text: "How many {goods} do you want? \n*Student: I want one bagel/donut/muffin.*"
+  - text: "How many do you want to buy? \n*Student: I want one bagel/donut/muffin.*"
+
+  utter_supermarket_goods_fruit:
+  - text: "How many {goods} do you want? \n*Student: I want one apple/orange/watermelon.* "
+  - text: "How many do you want to buy? \n*Student: I want one apple/orange/watermelon.* "
+  utter_supermarket_drinks:
+  - text: "How many bottles of {goods} do you want? \n*Student: I want one bottle of juice/milk/tea.*"
+
+  utter_what_number_bread:
+  - text: "Here you are. \nIt’s thirty dollars. \n*Student: Okay! Here you are.*"
+
+  utter_affirm_supermarket:
+  - text: "Here is your receipt. \n*Student: Thank you.*"
+
+  utter_fruits:
+  - text: "Okay. \nWhich one do you want?\nApple, orange, or watermelon? \n*Student: I would like some apples/oranges/watermelon.*"
+
+  utter_what_number_fruits:
+  - text: "Here you are.\nIt’s twenty-five dollars. \n*Student: Okay Here you are.*"
+
+  utter_drinks:
+  - text: "Okay. \nWhich one do you want?  \nJuice, milk, or tea? \n*Student: I would like some juice/milk/tea.*  "
+
+  utter_what_number_drinks:
+  - text: "Here you are. \nIt’s thirty-five dollars."
+
+  utter_school_play:
+  - text: "What do you want to play at the playground? \nBasketball or soccer? \n*Student: I want to play basketball/soccer.*"
+
+  utter_play_school:
+  - text: "Let's go! \nSchool is over! \nNow, where do you want to go? \n*Student: I want to go to the library/supermarket/park/restaurant.* "
+  - text: "Let's do it. \nSchool is over! \nNow, where do you want to go? \n*Student: I want to go to the library/supermarket/park/restaurant.*  "
+  - text: "Good idea. \nSchool is over! \nNow, where do you want to go? \n*Student: I want to go to the library/supermarket/park/restaurant.*  "
+
+  utter_class:
+  - text: "Which class do you like? \nEnglish class or math class? \n*Student: I like English/math class.* "
+
+  utter_english_class:
+  - text: "Okay.How old are you? \n*Student: I am seven years old.*"
+
+  utter_age:
+  - text: "What color do you like? \n*Student: I like yellow/pink/purple/white/green.*"  
+
+  utter_student_color:
+  - text: "Oh, I like purple. \nIt’s really nice to meet you! \nSchool is over! \nNow, where do you want to go? \n*Student: I want to go to the library/supermarket/park/restaurant.* "
+
+  utter_math_class:
+  - text: "Please tell me that fifteen plus five equals? \n*Student: Twenty.*"
+
+  utter_math_classQ1:
+  - text: "Please tell me Seven plus twelve equals? \n*Student: Nineteen.*"
+
+  utter_math_classQ2:
+  - text: "Please tell me Ten minus four equals? \n*Student: six.*"
+
+  utter_math_classQ3:
+  - text: "Please tell me Sixteen minus five equals? \n*Student: eleven.*"
+
+  utter_math_class_end:
+  - text: "You're so smart.\nNow, where do you want to go? \n*Student: I want to go to the library/supermarket/park/restaurant.* "
+
+  
+
+  utter_closing:
+  - text: "School is over! \nNow, where do you want to go?\n*Student: I want to go to the library/supermarket/park/restaurant.*"
+
+  utter_park_play:
+  - text: "Are you going to play? \n*Student: Yes I am going to play.*"
+
+  utter_park_affirm:
+  - text: "What do you want to do? \nRide a bike or play on the slide? \n*Student: I want to ride a bike/play on the slide.*"
+
+  utter_play:
+  - text: "Okay, let’s play! \nOh, no. \nIt’s raining. \nDo you have an umbrella? \n*Student: Yes, I do/No, I don't.*"
+
+  utter_park_umbrella:
+  - text: "Let’s go to other places so that we don’t get wet. \nWhere do you want to go next? \n*Student: I want to go to the library/supermarket/school/restaurant.* "
+
+  utter_picnic:
+  - text: "Great! \nDo you have anything to eat? \n*Student: Yes, I do/No, I don't.*"
+
+  utter_yes_eat:
+  - text: "Great! \nLet’s find a place to sit and eat! \nOh, no. It’s raining. \nDo you have an umbrella? \n*Student: Yes, I do/No, I don't.*"
+
+  utter_park_rain:
+  - text: "Oh, no. \nIt’s raining.\nDo you have an umbrella? \n*Student: Yes, I do/No, I don't.* "
+
+  utter_no_eat:
+  - text: "Maybe we can buy some at the supermarket. \nDo you want to go to the supermarket? \n*Student: Yes,go to the supermarket/No, I don't.*"
+
+  utter_show_way:
+  - text: "Okay,let's go to the supermarket. "
+
+  utter_picnic_nobuy:
+  - text: "No, you can only buy things in the supermarket. \nShall we go to the supermarket? \n*Student: Okay,go to the supermarket.*"
+
+  utter_sit:
+  - text: "Come sit down on the bench? \n*Student: Okay/No.*"
+
+  utter_affirm_park:
+  - text: "Look! \nWhat’s that in the pond? \n*Student: There is a duck in the pond.*"
+
+  utter_student_goose:
+  - text: "What color is it? \n*Student: It is green.*"
+
+  utter_park_color:
+  - text: "Oh, no. \nIt’s raining. \nDo you have an umbrella? \n*Student: Yes, I do/No, I don't.* "
+
+  utter_deny_park:
+  - text: "Alright Look! \nWhat’s that in the pond? \n*Student: There is a duck in the pond.* "
+
+  utter_library:
+  - text: "That’s a great idea. \nWhich book do you want to read first? \nYellow, green or purple? \n*Student: I want to read the green/yellow/purple book.*"
+
+  utter_library_color1:
+  - text: "What’s in the {color} book? \n*Student: There is a number/chicken/watermelon in the book.* "
+
+  utter_lib_student:
+  - text: "What number is it? \n*Student: It is seven.*"
+
+  utter_lib_number:
+  - text: "The number is seven. \nDo you want to read other books? \n*Student: Yes/No.*"
+
+  utter_yellow_affirm:
+  - text: "Let’s read the last book. What’s in the {color} book? "
+
+  utter_yellow_deny:
+  - text: "Okay! \nWhich book do you like to borrow? \n*Student: I want to borrow yellow/purple/green book.* "
+
+  utter_yellow_color:
+  - text: "Do you bring your library card? \n*Student: Yes/No.*"
+
+  utter_yellow_borrow_affirm:
+  - text: "Let’s talk to the librarian then. \nRemember, you have to return your book next week. Where should we go next? \n*Student: I want to go to the park/supermarket/school/restaurant.* "
+
+  utter_yellow_nobring:
+  - text: "Don’t worry. You can use my library card. \nLet’s talk to the librarian then. \nRemember, you have to return your book next week. Where should we go next? \n*Student: I want to go to the park/supermarket/school/restaurant.*"
+
+  utter_thanks:
+  - text: "Have a nice day! \nNow, where do you want to go?\n*Student: I want to go to the library/restaurant/park/school.* "
+  
+  utter_green_student:
+  - text: "What animal do you like? \n*Student: I like cat/rabbit/lion/tiger/bird/dinosaur/zebra/elephant.*"
+
+  utter_green_animal:
+  - text: "Me too!\nThey are my favorite animal. \nDo you want to read the other books? \n*Student: Yes/No.*"
+
+  utter_purple_student:
+  - text: "What fruit do you like? \n*Student: I like apple/orange/watermelon.*"
+
+  utter_purple_apple:
+  - text: "I like apples. Apple is my favorite fruit. \nDo you want to read the other books? \n*Student: Yes/No.*"
+
+  utter_keepread_book_yellow:
+  - text: "Which book do you want to read? \nGreen or purple? \n*Student: I want to read the green/purple book.*"
+
+  utter_keepread_book_green:
+  - text: "Which book do you want to read? \nYellow or purple? \n*Student: I want to read the yellow/purple book.*"
+
+  utter_keepread_book_purple:
+  - text: "Which book do you want to read? \nYellow or green? \n*Student: I want to read the yellow/green book.*"
+
+  utter_instruction:
+  - text: "OK!"
+
+  utter_thanks_lib:
+  - text: "Goodbye! "
+
+  utter_location_where:
+  - text: |
+      Where are you going?
+
+  utter_location_deny:
+  - text: |
+      But you can’t shop in the {location}.  Are you sure you want to go to the {location}?
+
+  utter_clerk:
+  - text: "What can i help you"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_all_deny:
+  - text: "Then... where are you going  "
+
+  utter_errorword:
+  - text: "I'm sorry I don't understand what you mean. \nWhat do you want to do? "
+ 
+  utter_bot_challenge:
+  - text: "My name is Simbot. I am a smart robot "
+
+  utter_restaurant_greet:
+  - text: "Welcome, do you have a reservation? \n*Student: Yes/No.*"
+
+  utter_ask_name:
+  - text: "May I have your name please? \n*Student: I am kevin.*"
+
+  utter_this_way:
+  - text: "Ok, this way please~ \nHere is menu! \nWhat can I get for you today? \n*Student: May I have the spaghetti/French fries/soda?*"
+
+  utter_deny_RSVT:
+  - text: "We're a bit busy right now. \nWould you like to wait for 20 minutes? \n*Student: Ok, I can wait./Can I order to go?*"
+
+  utter_confirmed_reservation:
+  - text: "Ok, your reservation has been confirmed. \n*Student: Great, thank you.*"
+
+  utter_no_problem:
+  - text: "No problem, I will see you in 20 minutes. \nNow, where do you want to go?\n*Student: I want to go to the library/supermarket/park/school.*"
+
+  utter_spaghetti:
+  - text: "Sure, would you also like to try our French fries or soda? \n*Student: Yes, please. Can I get one soda/French fries? or No, thank you.*"
+
+  utter_French_fries:
+  - text: "Sure, would you also like to try our spaghetti or soda? \n*Student: Yes, please. Can I get one soda/spaghetti? or No, thank you.*"
+
+  utter_soda:
+  - text: "Sure, would you also like to try our French fries or spaghetti? \n*Student: Yes, please. Can I get one spaghetti/French fries? or No, thank you.*"
+
+  utter_more_meal:
+  - text: "Sure, here is your order.Enjoy!  ---.{meal1}. {meal2}. {meal3}. \n*Student: Excuse me, can I have the check please.*"
+
+  utter_no_order:
+  - text: "Alright, here is your order.Enjoy!  ---.{meal1}. {meal2}. {meal3}. \n*Student: Excuse me, can I have the check please.* "
+
+  utter_check:
+  - text: "Ok, your total is 666 NT dollars. \n*Student: Okay.*"
+
+  utter_how_meal:
+  - text: "How is today's meal? \n*Student: It was great!*"
+
+  utter_feedback_meal:
+  - text: "Thank you for your feedback. \nSee you next time! \nNow, where do you want to go?\n*Student: I want to go to the library/supermarket/park/school.*  "
+
+  utter_take_out:
+  - text: "Sure! What can I get you today? \n*Student: May I have spaghetti/French fries/soda, please?*"
+
+  utter_take_out_more_meal:
+  - text: "Sure! Is that all for you today? \n*Student: Yes.*"
+
+  utter_B_end:
+  - text: "Here’s your receipt. \nPlease wait at the counter over there for your meal.  \n Thank you, have a nice day! \nNow, where do you want to go?\n*Student: I want to go to the library/supermarket/park/school.* "
+
+  utter_only_spaghetti:
+  - text: "Alright, one spaghetti. \nYour total is 230 NT dollars. \n*Student: Okay, here you are!*"
+
+  utter_only_french_fries:
+  - text: "Alright, one French_fries. \nYour total is 80 NT dollars. \n*Student: Okay, here you are.*"
+
+  utter_only_soda:
+  - text: "Alright, one soda.Your total is 25 NT dollars. \n*Student: Okay, here you are.*"
+
+
+
+  utter_please_rephrase:
+    - text: "Sorry, I didn't get that. Could you please rephrase?"
+    - text: "I didn't understand, could you rephrase that?"
+    - text: "I'm sorry, but I didn't understand you. Could you please rephrase what you just said?"
+    - text: "I'm afraid I didn't get what you just said. Could you rephrase that?"
+    - text: "I didn't quite get that, could you rephrase your message?"
+    - text: "Could you rephrase your message? I didn't get it, I'm sorry."
+
+
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,22 @@
+version: "2.0"
+stories:
+- story: supermarket 2 (C:\Users\roxy\AppData\Local\Temp\tmpp6rji0be\d9da4244260e43ccb3e21c4dbb11c3ab_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: supermarket  # predicted: locations_place: I have a supermarket discount coupon
+  - action: utter_supermarket
+  - intent: goodbye
+  - action: utter_goodbye
+- story: library 1 (C:\Users\roxy\AppData\Local\Temp\tmpp6rji0be\d9da4244260e43ccb3e21c4dbb11c3ab_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: library
+  - action: utter_library  # predicted: utter_get_location
+  - intent: color
+  - action: utter_color  # predicted: utter_number
+  - intent: student
+  - action: utter_student  # predicted: utter_thanks
+  - intent: thanks
+  - action: utter_thanks

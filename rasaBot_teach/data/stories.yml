@@ -1,0 +1,1493 @@
+version: "2.0"
+
+stories:
+- story: supermarket bread
+  steps:
+  - intent: locations_place_supermarket
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_supermarket
+  - intent: bread
+  - action: utter_bread
+  - intent: supermarket_goods
+  - action: utter_supermarket_goods_bread
+  - intent: what_number
+  - action: action_price
+  - intent: affirm
+  - action: utter_affirm_supermarket
+  - intent: thanks
+  - action: utter_thanks
+
+- story: supermarket fruits
+  steps:
+  - intent: locations_place_supermarket
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_supermarket
+  - intent: fruits
+  - action: utter_fruits
+  - intent: supermarket_goods
+  - action: utter_supermarket_goods_fruit
+  - intent: what_number
+  - action: action_price
+  - intent: affirm
+  - action: utter_affirm_supermarket
+  - intent: thanks
+  - action: utter_thanks
+
+- story: supermarket drinks
+  steps:
+  - intent: locations_place_supermarket
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_supermarket
+  - intent: drinks
+  - action: utter_drinks
+  - intent: supermarket_goods
+  - action: utter_supermarket_drinks
+  - intent: what_number
+  - action: action_price
+  - intent: affirm
+  - action: utter_affirm_supermarket
+  - intent: thanks
+  - action: utter_thanks
+
+- story: school_playground
+  steps:
+  - intent: locations_place_school
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_school
+  - intent: school_play
+  - action: utter_school_play
+  - intent: play
+  - action: utter_play_school
+
+- story: school_english_class
+  steps:
+  - intent: locations_place_school
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_school
+  - intent: class 
+  - action: utter_class
+  - intent: english_class
+  - action: utter_english_class
+  - intent: what_number
+  - action: utter_age
+  - intent: color
+  - action: utter_student_color
+
+
+- story: school_math_class
+  steps:
+  - intent: locations_place_school
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_school
+  - intent: class 
+  - action: utter_class
+  - intent: math_class
+  - action: utter_math_class
+  - intent: what_number
+  - action: utter_math_classQ1
+  - intent: what_number
+  - action: utter_math_classQ2
+  - intent: what_number
+  - action: utter_math_classQ3
+  - intent: what_number
+  - action: utter_math_class_end
+
+- story: park_play
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: park_play
+  - action: utter_park_affirm
+  - intent: park_play
+  - action: utter_play
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_play_deny
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: park_play
+  - action: utter_park_affirm
+  - intent: park_play
+  - action: utter_play
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_picnic
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: picnic 
+  - action: utter_picnic
+  - intent: affirm
+  - action: utter_yes_eat
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_picnic
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: picnic 
+  - action: utter_picnic
+  - intent: affirm
+  - action: utter_yes_eat
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_picnic_no
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: picnic 
+  - action: utter_picnic
+  - intent: deny
+  - action: utter_no_eat
+  - intent: affirm
+  - action: utter_show_way
+
+- story: park_picnic_no_supermarket
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: picnic 
+  - action: utter_picnic
+  - intent: deny
+  - action: utter_no_eat
+  - intent: deny
+  - action: utter_picnic_nobuy
+  - intent: affirm
+  - action: utter_show_way
+
+
+# - story: park_sit_on_the_bench
+#   steps:
+#   - intent: locations_place_park
+#   - action: utter_get_location
+#   - intent: greet
+#   - action: utter_greet_park
+#   - intent: sit
+#   - action: utter_sit
+#   - intent: affirm
+#   - action: utter_affirm_park
+#   - intent: student
+#   - action: utter_student_goose
+#   - intent: color
+#   - action: utter_park_color
+#   - intent: affirm
+#   - action: utter_park_umbrella
+
+# - story: park_sit_on_the_bench2
+#   steps:
+#   - intent: locations_place_park
+#   - action: utter_get_location
+#   - intent: greet
+#   - action: utter_greet_park
+#   - intent: sit
+#   - action: utter_sit
+#   - intent: affirm
+#   - action: utter_affirm_park
+#   - intent: student
+#   - action: utter_student_goose
+#   - intent: color
+#   - action: utter_park_color
+#   - intent: deny
+#   - action: utter_park_umbrella
+
+
+# - story: park_sit_on_the_bench_deny
+#   steps:
+#   - intent: locations_place_park
+#   - action: utter_get_location
+#   - intent: greet
+#   - action: utter_greet_park
+#   - intent: sit
+#   - action: utter_sit
+#   - intent: deny
+#   - action: utter_deny_park
+#   - intent: student
+#   - action: utter_student_goose
+#   - intent: color
+#   - action: utter_park_color
+#   - intent: affirm
+#   - action: utter_park_umbrella
+
+# - story: park_sit_on_the_bench_deny
+#   steps:
+#   - intent: locations_place_park
+#   - action: utter_get_location
+#   - intent: greet
+#   - action: utter_greet_park
+#   - intent: sit
+#   - action: utter_sit
+#   - intent: deny
+#   - action: utter_deny_park
+#   - intent: student
+#   - action: utter_student_goose
+#   - intent: color
+#   - action: utter_park_color
+#   - intent: deny
+#   - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench00
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench01
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench02
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench03
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench111
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench112
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench113
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench114
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench121
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench122
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench123
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench124
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench131
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench132
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench133
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench134
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench210
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+
+- story: park_sit_on_the_bench211
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench212
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+
+- story: park_sit_on_the_bench221
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench222
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench231
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench232
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+
+- story: park_sit_on_the_bench241
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench242
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_affirm_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench_deny31
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_deny_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+
+
+- story: park_sit_on_the_bench_deny32
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: affirm
+  - action: utter_deny_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench_deny33
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_deny_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: affirm
+  - action: utter_park_umbrella
+
+
+- story: park_sit_on_the_bench_deny34
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_deny_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: affirm
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench_deny341
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_deny_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+- story: park_sit_on_the_bench_deny41
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_deny_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+
+- story: park_sit_on_the_bench_deny51
+  steps:
+  - intent: locations_place_park
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_greet_park
+  - intent: sit
+  - action: utter_sit
+  - intent: deny
+  - action: utter_deny_park
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: deny
+  - action: action_park_frog
+  - intent: student_frog
+  - action: action_park_frog
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: action_park_2
+  - intent: color
+  - action: action_park_2
+  - intent: deny
+  - action: utter_park_umbrella
+
+
+
+
+- story: library_yellow_yes
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_yellow
+  - action: utter_lib_student
+  - intent: what_number
+  - action: utter_lib_number
+  - intent: affirm
+  - action: utter_keepread_book_yellow
+  - intent: color
+  - action: utter_library_color1
+
+- story: library_yellow_no
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_yellow
+  - action: utter_lib_student
+  - intent: what_number
+  - action: utter_lib_number
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: color
+  - action: utter_yellow_color
+  - intent: affirm
+  - action: utter_yellow_borrow_affirm
+
+- story: library_yellow_no_bring
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_yellow
+  - action: utter_lib_student
+  - intent: what_number
+  - action: utter_lib_number
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: color
+  - action: utter_yellow_color
+  - intent: deny
+  - action: utter_yellow_nobring
+
+
+- story: library_yellow_no_noborrow
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_yellow
+  - action: utter_lib_student
+  - intent: what_number
+  - action: utter_lib_number
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: deny
+  - action: utter_thanks_lib
+
+
+- story: library_green
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_green
+  - action: utter_green_student
+  - intent: animal
+  - action: utter_green_animal
+  - intent: affirm
+  - action: utter_keepread_book_green
+  - intent: color
+  - action: utter_library_color1
+
+- story: library_green_no_others
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_green
+  - action: utter_green_student
+  - intent: animal
+  - action: utter_green_animal
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: color
+  - action: utter_yellow_color
+  - intent: affirm
+  - action: utter_yellow_borrow_affirm
+
+
+
+- story: library_green_nobring
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_green
+  - action: utter_green_student
+  - intent: animal
+  - action: utter_green_animal
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: color
+  - action: utter_yellow_color
+  - intent: deny
+  - action: utter_yellow_nobring
+
+- story: library_green_noborrow
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_green
+  - action: utter_green_student
+  - intent: animal
+  - action: utter_green_animal
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: deny
+  - action: utter_thanks_lib
+
+
+- story: library_purple
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_purple
+  - action: utter_purple_student
+  - intent: pruple_fruits
+  - action: utter_purple_apple
+  - intent: affirm
+  - action: utter_keepread_book_purple
+  - intent: color
+  - action: utter_library_color1
+
+
+- story: library_purple_no_other
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_purple
+  - action: utter_purple_student
+  - intent: pruple_fruits
+  - action: utter_purple_apple
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: color
+  - action: utter_yellow_color
+  - intent: affirm
+  - action: utter_yellow_borrow_affirm
+
+- story: library_purple_nobring
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_purple
+  - action: utter_purple_student
+  - intent: pruple_fruits
+  - action: utter_purple_apple
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: color
+  - action: utter_yellow_color
+  - intent: deny
+  - action: utter_yellow_nobring
+
+
+
+- story: library_purple_noborrow
+  steps:
+  - intent: locations_place_library
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_get_location_library
+  - intent: quiet
+  - action: utter_library
+  - intent: color
+  - action: utter_library_color1
+  - intent: student_purple
+  - action: utter_purple_student
+  - intent: pruple_fruits
+  - action: utter_purple_apple
+  - intent: deny
+  - action: utter_yellow_deny
+  - intent: deny
+  - action: utter_thanks_lib
+
+
+
+- story: say instruction
+  steps:
+  - intent: instruction
+  - action: utter_instruction
+
+  
+
+
+
+- story: restaurant have reservation
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: affirm
+  - action: utter_ask_name
+  - intent: have_reservation
+  - action: action_get_time
+  - intent: affirm
+  - action: utter_this_way
+  - intent: spaghetti_meal
+  - action: utter_spaghetti
+  - intent: more_meal
+  - action: utter_more_meal
+  - intent: check_A
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_how_meal
+  - intent: meal_felling
+  - action: utter_feedback_meal
+
+- story: restaurant have reservation_nomore
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: affirm
+  - action: utter_ask_name
+  - intent: have_reservation
+  - action: action_get_time
+  - intent: affirm
+  - action: utter_this_way
+  - intent: spaghetti_meal
+  - action: utter_spaghetti
+  - intent: deny
+  - action: utter_no_order
+  - intent: check_A
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_how_meal
+  - intent: meal_felling
+  - action: utter_feedback_meal
+
+
+- story: restaurant have reservation french
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: affirm
+  - action: utter_ask_name
+  - intent: have_reservation
+  - action: action_get_time
+  - intent: affirm
+  - action: utter_this_way
+  - intent: French_fries_meal
+  - action: utter_French_fries
+  - intent: more_meal
+  - action: utter_more_meal
+  - intent: check_A
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_how_meal
+  - intent: meal_felling
+  - action: utter_feedback_meal
+
+
+- story: restaurant have reservation french no more
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: affirm
+  - action: utter_ask_name
+  - intent: have_reservation
+  - action: action_get_time
+  - intent: affirm
+  - action: utter_this_way
+  - intent: French_fries_meal
+  - action: utter_French_fries
+  - intent: deny
+  - action: utter_no_order
+  - intent: check_A
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_how_meal
+  - intent: meal_felling
+  - action: utter_feedback_meal
+
+- story: restaurant have reservation soda
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: affirm
+  - action: utter_ask_name
+  - intent: have_reservation
+  - action: action_get_time
+  - intent: affirm
+  - action: utter_this_way
+  - intent: soda_meal
+  - action: utter_soda
+  - intent: more_meal
+  - action: utter_more_meal
+  - intent: check_A
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_how_meal
+  - intent: meal_felling
+  - action: utter_feedback_meal
+
+- story: restaurant have reservation soda nomore
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: affirm
+  - action: utter_ask_name
+  - intent: have_reservation
+  - action: action_get_time
+  - intent: affirm
+  - action: utter_this_way
+  - intent: soda_meal
+  - action: utter_soda
+  - intent: deny
+  - action: utter_no_order
+  - intent: check_A
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_how_meal
+  - intent: meal_felling
+  - action: utter_feedback_meal
+
+
+
+
+
+
+
+
+- story: restaurant no reservation B
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: deny
+  - action: utter_deny_RSVT
+  - intent: affirm
+  - action: utter_ask_name
+  - intent: have_reservation
+  - action: utter_confirmed_reservation
+  - intent: thanks
+  - action: utter_no_problem
+
+
+- story: restaurant no reservation spaghetti
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: deny
+  - action: utter_deny_RSVT
+  - intent: take_out
+  - action: utter_take_out
+  - intent: spaghetti_meal
+  - action: utter_spaghetti
+  - intent: more_meal
+  - action: utter_take_out_more_meal
+  - intent: affirm
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_B_end
+
+- story: restaurant no reservation spaghetti no
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: deny
+  - action: utter_deny_RSVT
+  - intent: take_out
+  - action: utter_take_out
+  - intent: spaghetti_meal
+  - action: utter_spaghetti
+  - intent: deny
+  - action: utter_only_spaghetti
+  - intent: affirm
+  - action: utter_B_end
+
+- story: restaurant no reservation French_fries
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: deny
+  - action: utter_deny_RSVT
+  - intent: take_out
+  - action: utter_take_out
+  - intent: French_fries_meal
+  - action: utter_French_fries
+  - intent: more_meal
+  - action: utter_take_out_more_meal
+  - intent: affirm
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_B_end
+
+- story: restaurant no reservation French_fries no
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: deny
+  - action: utter_deny_RSVT
+  - intent: take_out
+  - action: utter_take_out
+  - intent: French_fries_meal
+  - action: utter_French_fries
+  - intent: deny
+  - action: utter_only_spaghetti
+  - intent: affirm
+  - action: utter_B_end
+
+
+- story: restaurant no reservation soda
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: deny
+  - action: utter_deny_RSVT
+  - intent: take_out
+  - action: utter_take_out
+  - intent: soda_meal
+  - action: utter_soda
+  - intent: more_meal
+  - action: utter_take_out_more_meal
+  - intent: affirm
+  - action: action_check_restaurant
+  - intent: affirm
+  - action: utter_B_end
+
+
+- story: restaurant no reservation soda no
+  steps:
+  - intent: Go_restaurant
+  - action: utter_get_location
+  - intent: greet
+  - action: utter_restaurant_greet
+  - intent: deny
+  - action: utter_deny_RSVT
+  - intent: take_out
+  - action: utter_take_out
+  - intent: soda_meal
+  - action: utter_soda
+  - intent: deny
+  - action: utter_only_spaghetti
+  - intent: affirm
+  - action: utter_B_end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

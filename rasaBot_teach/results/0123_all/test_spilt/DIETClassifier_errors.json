@@ -1,0 +1,128 @@
+[
+  {
+    "text": "Go to the park",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "park",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.6763846358574475,
+        "value": "park",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want to go to the park",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "park",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.6763915622459756,
+        "value": "park",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy some kitchen utensils",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.923106849193573,
+        "value": "utensils",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like some cakes",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "cakes",
+        "entity": "goods"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "goods",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9073759133909606,
+        "value": "cakes",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Ten",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Ten",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8325839101980456,
+        "value": "Ten",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Stationery",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.999607503414154,
+        "value": "Stationery",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ejwroi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.5373590588569641,
+        "value": "ejwroi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

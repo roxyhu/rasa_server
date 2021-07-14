@@ -1,0 +1,24 @@
+version: "2.0"
+stories:
+- story: supermarket (C:\Users\roxy\AppData\Local\Temp\tmpfnvns1p1\5a92f0d5659644b086fc767af48ef88e_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: supermarket
+  - action: utter_supermarket  # predicted: action_default_fallback
+- story: supermarket 2 (C:\Users\roxy\AppData\Local\Temp\tmpfnvns1p1\5a92f0d5659644b086fc767af48ef88e_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: supermarket  # predicted: school_need: I have a supermarket discount coupon
+  - action: utter_supermarket  # predicted: action_default_fallback
+  - intent: goodbye
+  - action: utter_goodbye  # predicted: utter_greet
+- story: say goodbye (C:\Users\roxy\AppData\Local\Temp\tmpfnvns1p1\5a92f0d5659644b086fc767af48ef88e_test_stories.yml)
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye  # predicted: utter_greet
+- story: bot challenge (C:\Users\roxy\AppData\Local\Temp\tmpfnvns1p1\5a92f0d5659644b086fc767af48ef88e_test_stories.yml)
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot  # predicted: utter_age
