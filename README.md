@@ -1,5 +1,5 @@
 # rasa_server  
-環境版本為下
+環境版本如下
 ```py
 jupyterlab==2.2.9
 rasa==2.0.2
